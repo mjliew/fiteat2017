@@ -14,6 +14,8 @@ Web-service, wich provides talor made mealplans with the delivery around the Tal
  
  Target platform(s)
  Web page
+ JQuery
+ Bootstrap (maybe)
  
  -Guide to installing/running the application
  
