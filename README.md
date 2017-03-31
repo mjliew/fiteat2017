@@ -28,7 +28,7 @@ Web-service, wich provides talor made mealplans with the delivery around the Tal
  5. If you write the javascripr code veriables should have clear naming.
  
  To upload your changes in gh-pages brunch:
- 1. Update master
+ 1. Update gh-pages
  2. Resolve conflicts
  3. Push your changes with clear commit message. 
  4. All changes should be comited in the gh-pages branch. 
