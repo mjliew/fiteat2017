@@ -245,3 +245,65 @@ header {
         display: block;
     }
 }
+
+.grey-overlay-map{
+    background: #f0f0f0;
+    padding: 145px 0;
+}
+#map{
+    height: 500px;
+}
+.map{
+    position: relative;
+    .map-overlay{
+        position: absolute;
+        width: 900px;
+        height: 500px;
+        background: #fff;
+        opacity: 0.7;
+        z-index: 10;
+        top: 0;
+        left: 50px;
+    }
+    .map-contacts-form {
+        position: absolute;
+        top: 50%;
+        z-index: 11;
+        margin-top: -150px;
+        left: 150px;
+        display: flex;
+            .map-contacts {
+                height: 300px;
+                width: 333px;
+                background: #fff;
+                z-index: 11;
+                box-sizing: border-box;
+                padding: 30px 20px 0;
+                margin-right: 30px;
+                .contact-social {
+                    display: flex;
+                    justify-content: space-between;
+                    width: 200px;
+                    margin-top: 13px;
+                }
+            }
+            .map-form{
+                input{
+                    width: 350px;
+                    display: block;
+                    height: 36px;
+                    box-sizing: border-box;
+                    padding-left: 10px;
+                    margin-bottom: 20px;
+                }
+                textarea{
+                    width: 350px;
+                    height: 188px;
+                    box-sizing: border-box;
+                    padding-left: 10px;
+                    border: none;
+                    resize: none;
+                }
+            }
+    }
+}

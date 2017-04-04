@@ -1,0 +1,79 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+
+    <title>Fiteat</title>
+    <link rel="stylesheet" href="styles/styles.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" 
+    integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <!-- This stylesheet contains specific styles for displaying the map
+         on this page. Replace it with your own styles as described in the
+         documentation:
+         https://developers.google.com/maps/documentation/javascript/tutorial -->
+  <!--[if lt IE 9]>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script>
+  <![endif]-->
+</head>
+
+<body>
+    <section class="grey-overlay-map">
+        <section class="map">
+            <div id="map"></div>
+            <div class="map-overlay"></div>
+            <div class="map-contacts-form">
+                <div class="map-contacts">
+                    <img src="images/follow-cheat.png" />
+                    <div class="contact-social">
+                        <a href="" class="folow-link"><img src="images/facebook.png" alt="facebook"/></a>
+                        <a href="" class="folow-link"><img src="images/facebook.png" alt="facebook"/></a>
+                        <a href="" class="folow-link"><img src="images/facebook.png" alt="facebook"/></a>
+                        <a href="" class="folow-link"><img src="images/facebook.png" alt="facebook"/></a>
+                        <a href="" class="folow-link"><img src="images/facebook.png" alt="facebook"/></a>
+                        <a href="" class="folow-link"><img src="images/facebook.png" alt="facebook"/></a>
+                    </div>
+                </div>
+                <div class="map-form">
+                    <input type="text" placeholder="name, surname"/>
+                    <input type="text" placeholder="e-mail"/>
+                    <textarea rows="10" cols="45" name="text"></textarea>
+                </div>
+            </div>
+        </section>
+    </section>    
+    <script>
+      function initMap() {
+        var myLatLng = {lat: 59.4392364, lng: 24.746344};
+        var pos = {lat: 59.4370579, lng: 24.7303319};
+        var iconBase = 'images/marker.png';
+        // Create a map object and specify the DOM element for display.
+        var map = new google.maps.Map(document.getElementById('map'), {
+          center: pos,
+          scrollwheel: false,
+          zoom: 15
+        });
+
+        // Create a marker and set its position.
+        var marker = new google.maps.Marker({
+          map: map,
+          position: myLatLng,
+          draggable: true,
+          animation: google.maps.Animation.DROP,
+          icon: iconBase,
+          title: 'Hello World!'
+        });
+      }
+      function drop() {
+        for (var i =0; i < markerArray.length; i++) {
+            setTimeout(function() {
+            addMarkerMethod();
+            }, i * 200);
+        }
+        }
+    </script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDAWwteWgHdhPO08OF7XbstJw2KLBRwM8U&callback=initMap"
+        async defer></script>
+  </body>
+</body>
+</html>
