@@ -322,6 +322,21 @@ html a:hover {
   text-transform: uppercase;
   text-decoration: none;
 }
+
+.content-holder.header  .link-1 {
+  transition: 0.4s;
+  color: #ffffff;
+ 
+  padding: 0 10px;
+  margin: 0 10px;
+}
+.content-holder.header  .link-1:hover{
+ 
+  background-color: #000000;
+  color: #66e572;
+ padding: 24px 10px;
+
+}
 .content-holder.order-process {
   display: flex;
   flex-direction: row;
