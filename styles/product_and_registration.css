@@ -62,6 +62,7 @@ body{
 	flex: 1 1 30%;
 	display: flex;
 	justify-content: flex-end;
+    align-items: center;
 }
 
 .edit-goal, .green-button{
@@ -238,5 +239,88 @@ body{
 
 .product-description_cost {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    flex: 1 1 30%;
+    flex-wrap: wrap;
+}
+
+.cost{
+    color: #66e572;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.product-description_cost input{
+    width: 84px;
+    height: 54px;
+    border-radius: 27px;
+    border: none;
+    box-sizing: border-box;
+    font-size: 24px;
+    padding-left: 27px;
+    margin-left: -21px;
+}
+
+.product-description_small{
+    width: 100%;
+}
+
+.pst_cost{
+    display: inline-block;
+    box-sizing: border-box;
+    padding-top: 11px;
+    color: #333;
+    font-weight: bold;
+    text-decoration: line-through;
+    margin-left: 10px;
+}
+
+.meal-course {
+    width: 215px;
+    height: 54px;
+    background: #fff;
+    border-radius: 30px;
+    text-align: center;
+    box-sizing: border-box;
+    padding-top: 17px;
+}
+
+.product-courses{
+    flex-wrap: wrap;
+    min-height: 150px;
+    max-width: 455px;
+    margin-top: 30px;
+    justify-content: space-between;
+    display: flex;
+}
+
+.product-info .content-holder {
+    padding: 50px 10px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+}
+
+.product-info-text, .courses-info {
+    flex: 1 1 50%;
+    display: flex;
+}
+
+.courses-info {
+    padding-left: 61px;
+    box-sizing: border-box;
+    position: relative;
+}
+
+.course-meal-description {
+    transform: rotate(-90deg);
+    transform-origin: left top 0;
+    float: left;
+    height: 41px;
+    width: 250px;
+    left: 14px;
+    font-size: 28px;
+    position: absolute;
+    top: 241px;
 }

@@ -2,5 +2,5 @@
     "version": "0.1.0",
     "command": "lessc",
     "isShellCommand": true,
-    "args": ["styles.less", "styles.css"]
+    "args": ["styles/styles.less", "styles/styles.css"]
 }
