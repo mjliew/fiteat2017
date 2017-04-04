@@ -282,6 +282,9 @@ html {
   margin: 0;
   padding: 0;
   position: relative;
+  font-family: "Helvetica";
+  color: #a8a8a8;
+  font-size: 18px;
 }
 body p,
 html p {
@@ -303,6 +306,7 @@ html a:hover {
   flex-direction: row;
   flex-wrap: nowrap;
   align-items: center;
+  position: relative;
 }
 .content-holder.header .logo {
   flex: 1 1 50%;
@@ -356,6 +360,7 @@ html a:hover {
 }
 .content-holder.packages .packages-header {
   font-size: 50px;
+  font-weight: 300;
   text-transform: uppercase;
   text-align: center;
 }
@@ -394,10 +399,15 @@ html a:hover {
 header {
   height: 113px;
   width: 100%;
-  opacity: 0.34;
-  background: #090b0d;
   position: absolute;
   z-index: 10;
+}
+header .transparent {
+  opacity: 0.34;
+  background: #090b0d;
+  width: 100%;
+  position: absolute;
+  height: 100%;
 }
 .main-slider {
   max-height: 1064px;
@@ -462,12 +472,41 @@ header {
   transition: 0.3s;
   cursor: pointer;
   margin: 0 auto;
-  padding-top: 13px;
+  padding-top: 10px;
 }
 .link-button:hover {
   background: #72fd7f;
   color: #fff;
 }
-.black {
-  color: black;
+.company-photo {
+  min-height: 700px;
+  max-height: 1080px;
+  background: url(../images/company.jpg) 50% no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  box-sizing: border-box;
+  padding-bottom: 46px;
+}
+.company-photo p {
+  font-size: 60px;
+  color: #fff;
+  font-weight: 300;
+  text-align: center;
+}
+.about-company {
+  padding-top: 30px;
+}
+.about-company p {
+  font-size: 48px;
+  font-weight: 300;
+  text-align: center;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.about-company img {
+  margin: 40px auto;
+  max-width: 1200px;
+  display: block;
 }

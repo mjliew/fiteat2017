@@ -9,6 +9,9 @@ body, html{
     margin: 0;
     padding: 0;
     position: relative;
+    font-family: "Helvetica";
+	color: #a8a8a8;
+	font-size: 18px;
     p{
         margin: 0;
         color: @font-color;
@@ -27,6 +30,7 @@ body, html{
          flex-direction: row;
          flex-wrap: nowrap;
          align-items: center;
+         position: relative;
          .logo{
              flex: 1 1 50%;
          }
@@ -83,6 +87,7 @@ body, html{
     &.packages{
         .packages-header{
             font-size: 50px;
+            font-weight: 300;
             text-transform: uppercase;
             text-align: center;
         }
@@ -125,10 +130,16 @@ body, html{
 header {
     height: 113px;
     width:100%;
-    opacity: 0.34;
-    background: #090b0d;
     position: absolute;
     z-index: 10;
+    .transparent{
+        opacity: 0.34;
+        background: #090b0d;
+        width: 100%;
+        position: absolute;
+        height: 100%;
+    }
+
 }
 
 &.main-slider{
@@ -193,13 +204,44 @@ header {
     transition: 0.3s;
     cursor: pointer;
     margin: 0 auto;
-    padding-top: 13px;
+    padding-top: 10px;
     &:hover{
         background: #72fd7f;
         color: #fff;  
     }
 }
 
-.black{
-    color: black;
+
+.company-photo{
+    min-height: 700px;
+    max-height: 1080px;
+    background: url(../images/company.jpg) 50% no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    box-sizing: border-box;
+    padding-bottom: 46px;
+    p{
+        font-size: 60px;
+        color: #fff;
+        font-weight: 300;
+        text-align: center;
+    }
+}
+
+.about-company{
+    padding-top: 30px;
+    p{
+        font-size: 48px;
+        font-weight: 300;
+        text-align: center;
+        max-width: 1200px;
+        margin: 0 auto;
+    }
+    img{
+        margin: 40px auto;
+        max-width: 1200px;
+        display: block;
+    }
 }
