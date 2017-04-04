@@ -1,6 +1,13 @@
 {
     "version": "0.1.0",
-    "command": "lessc",
+    "command": "gulp",
     "isShellCommand": true,
-    "args": ["styles/styles.less", "styles/styles.css"]
+    "tasks": [
+        {
+            "taskName": "default",
+            "isBuildCommand": true,
+            "showOutput": "always",
+            "isBackground": true
+        }
+    ]
 }
