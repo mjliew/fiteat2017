@@ -5,10 +5,11 @@
 	<title>Registration</title>
 	<meta name="generator" content="DocBook XSL Stylesheets V1.76.1">
 	<link rel="stylesheet" type="text/css" href="styles/styles.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 </head>
 
 <body>
-    <section class="grey-overlay">
+    <section class="grey-overlay registration">
         <div class="content-holder">
             <p class="registration-header">REGISTRATION</p>
             <div class="progress-bar">
@@ -94,5 +95,12 @@
             </div>
         </div>
     </section>
+    <script>
+        $('.progress').click(function(){
+            var tab = $(this).attr('class').split(' ')[1];
+            $('.progress, .form-conteiner').removeClass('active');
+            $('.' + tab).addClass('active');
+        });
+    </script>
 </body>
 </html>
