@@ -139,7 +139,7 @@ body, html{
 header {
     height: 113px;
     width:100%;
-    position: absolute;
+    position: relative;
     z-index: 10;
     .transparent{
         opacity: 0.34;
@@ -511,59 +511,63 @@ header {
     }
 }
 
-.qa-bgr-holder{
-    margin-bottom: -80px;
-    position: relative;
-}
-
-.qa-bgr{
-    background: url(../images/line.png) no-repeat center;
+.qa{
     background-color: #f1f1f1;
-    position: absolute;
-    height: 100%;
-    width: 100%;
-}
+    .content-holder{
+        position: relative;
+    }
+    .qa-accordion-holder{
+        margin: 0 auto;
+        max-width: 780px;
+        box-sizing: border-box;
+        padding-top: 20px;
+        
+        h3{
+            font-weight: lighter;
+            font-size: 18px;
+            
+            &:hover{
+                color: #72fd7f;
+            }
+        }
+        .ui-accordion-content{
+            height: auto!important;
+            background: #fff;
+            border-radius: 12px;
+            padding: 20px;
+        }
+        p{      
+        font-size: 14px;
+        border-radius: 12px;
+        margin: 0px 20px;
+        }
 
-.content-holder{
-    position: relative;
-    z-index: 10;
-}
-
-.qa-accordion-holder{
-    max-width: 1000px;
-    height: 100%;
-    padding: 200px 20px;
-    margin: 0 auto;
-
-    h3{
-        font-weight: lighter;
-        font-size: 18px;
-
-        &:hover{
-            color: #72fd7f;
-         }
+        ul{
+        display: flex;
+        flex: 1 1 50%;
+        justify-content: space-around;
+        li{
+            display: inline-block;
+            font-weight: @font-weight-bold;
+                color: @font-color-white;
+                text-transform: uppercase; 
+                text-decoration: none;
+        }
+        }        
+    }
+    .qa-bgr-holder{
+        margin-bottom: -80px;
+        position: relative;
+        margin-bottom: -80px;
+        position: relative;
+        min-height: 600px;
     }
 
-   p{      
-       padding: 30px 40px;
-       max-width: 780px;
-       font-size: 14px;
-       background-color: #ffffff;
-       border-radius: 12px;
-       margin: 0px 20px;
+    .qa-bgr{
+        background: url(../images/line.png) no-repeat center;
+        opacity: 0.3;
+        position: absolute;
+        height: 100%;
+        width: 100%;
     }
-
-    ul{
-    display: flex;
-    flex: 1 1 50%;
-    justify-content: space-around;
-    li{
-        display: inline-block;
-        font-weight: @font-weight-bold;
-            color: @font-color-white;
-            text-transform: uppercase; 
-            text-decoration: none;
-    }
-    }
-    
 }
