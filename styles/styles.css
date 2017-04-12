@@ -885,7 +885,8 @@ header .transparent {
   border-radius: 30px;
   outline: none;
 }
-.personal-info input[type="submit"]::hover {
+.personal-info input[type="submit"]:hover {
+  cursor: pointer;
   background-color: #4bb157;
 }
 .personal-info .title hr:first-child {
