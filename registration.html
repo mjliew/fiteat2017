@@ -18,22 +18,35 @@
                 <span class="progress payment-info"></span>
             </div>
             <div class="form-holder">
+                
                 <div class="form-conteiner personal-info active">
-                    <form class="login-info">
-                            <div class="form-conteiner-side login-info-background">
-                                <input type="text"/>
-                                <input type="text"/>
-                                <input type="text"/>      
-                            </div> 
-                            <div class="form-conteiner-side">
-                                <input type="text"/>
-                                <input type="text"/>
-                                <input type="text"/> 
-                                <input type="text"/>
-                                <input type="text"/>
-                            </div> 
-                            <button>NEXT</button>
-                    </form> 
+                    <form name="register" method="get">
+                        <div class="col1">
+                            <p class="userName">Username<span class="red">*</span></p>
+                            <input type="text" name="nickname" />
+                            <br>
+                            <p class="passWord">Enter password<span class="red">*</span></p>
+                            <input type="password" name="password" />
+                            <br>
+                            <p class="confirmPass">Confirm password<span class="red">*</span></p>
+                            <input type="password" name="password" />
+                        </div>
+                        <div class="col2">
+                            <input type="text" name="first_last_name" placeholder="name, last name*" />
+                            <br>
+                            <input type="text" name="email" placeholder="e-mail*"/>
+                            <br>
+                            <input type="text" name="phone" placeholder="phone number"/>
+                            <br>
+                            <input type="text" name="adress" placeholder="adress"/>
+                            <br>
+                            <input type="text" name="zip_code" placeholder="zip code"/>
+                            <br>
+                        </div>
+                        <div class="submit">
+                            <input type="submit" name="submit" value="Enter" />
+                        </div>
+			        </form> 
                 </div>
                 <div class="form-conteiner nutrition-info">
                     <form>
