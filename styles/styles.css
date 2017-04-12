@@ -408,7 +408,7 @@ html a:hover {
 header {
   height: 113px;
   width: 100%;
-  position: absolute;
+  position: relative;
   z-index: 10;
 }
 header .transparent {
@@ -763,138 +763,57 @@ header .transparent {
 .registration .form-holder .form-conteiner.active {
   display: block;
 }
-.qa-bgr-holder {
-  margin-bottom: -80px;
-  position: relative;
-}
-.qa-bgr {
-  background: url(../images/line.png) no-repeat center;
+.qa {
   background-color: #f1f1f1;
-  position: absolute;
-  height: 100%;
-  width: 100%;
 }
-.content-holder {
+.qa .content-holder {
   position: relative;
-  z-index: 10;
 }
-.qa-accordion-holder {
-  max-width: 1000px;
-  height: 100%;
-  padding: 200px 20px;
+.qa .qa-accordion-holder {
   margin: 0 auto;
+  max-width: 780px;
+  box-sizing: border-box;
+  padding-top: 20px;
 }
-.qa-accordion-holder h3 {
+.qa .qa-accordion-holder h3 {
   font-weight: lighter;
   font-size: 18px;
 }
-.qa-accordion-holder h3:hover {
+.qa .qa-accordion-holder h3:hover {
   color: #72fd7f;
 }
-.qa-accordion-holder p {
-  padding: 30px 40px;
-  max-width: 780px;
+.qa .qa-accordion-holder .ui-accordion-content {
+  height: auto!important;
+  background: #fff;
+  border-radius: 12px;
+  padding: 20px;
+}
+.qa .qa-accordion-holder p {
   font-size: 14px;
-  background-color: #ffffff;
   border-radius: 12px;
   margin: 0px 20px;
 }
-.qa-accordion-holder ul {
+.qa .qa-accordion-holder ul {
   display: flex;
   flex: 1 1 50%;
   justify-content: space-around;
 }
-.qa-accordion-holder ul li {
+.qa .qa-accordion-holder ul li {
   display: inline-block;
   font-weight: 600;
   color: #fff;
   text-transform: uppercase;
   text-decoration: none;
 }
-.personal-info form {
-  width: 700px;
-  margin: auto;
+.qa .qa-bgr-holder {
+  margin-bottom: -80px;
   position: relative;
-  font-family: 'Raleway', sans-serif;
+  min-height: 600px;
 }
-.personal-info p {
-  margin: 0px;
-  margin-top: 17px;
-  margin-left: 20px;
-  margin-bottom: 3px;
-  color: #a09a9a;
-}
-.personal-info .col1 {
-  background-color: #ffffff;
-  height: 277px;
-  width: 300px;
-  padding-left: 20px;
-  padding-top: 5px;
-  display: inline-block;
-  float: left;
-  margin-top: 40px;
-}
-.personal-info .col1 input {
-  border: 1px solid #dedede;
-  border-radius: 26px;
-  height: 40px;
-  width: 255px;
-  font-size: 20px;
-  color: #8c8c8c;
-  outline: none;
-  padding-left: 20px;
-  font-family: 'Raleway', sans-serif;
-}
-.personal-info .col2 {
-  background-color: transparent;
-  display: inline-block;
-  position: relative;
-  float: right;
-  margin-left: 30px;
-  height: 277px;
-  width: 350px;
-  margin-top: 40px;
-}
-.personal-info .col2 input {
-  border: 1px solid #dedede;
-  height: 30px;
-  width: 320px;
-  float: right;
-  padding-left: 10px;
-  margin-bottom: 33px;
-  margin-left: 10px;
-  font-size: 15px;
-  color: #8c8c8c;
-  outline: none;
-  font-family: 'Raleway', sans-serif;
-}
-.personal-info .submit {
-  display: inline-block;
-  height: 30px;
-  width: 166px;
-  float: right;
-  margin-top: 35px;
-}
-.personal-info input[type="submit"] {
-  height: 45px;
-  width: 158px;
-  border: 0;
-  background-color: #69e278;
-  color: white;
-  font-size: 20px;
-  border-radius: 30px;
-  outline: none;
-}
-.personal-info input[type="submit"]:hover {
-  cursor: pointer;
-  background-color: #4bb157;
-}
-.personal-info .title hr:first-child {
-  background-color: #69e279;
-}
-.personal-info span.red {
-  font-size: 30px;
-  display: inline-block;
+.qa .qa-bgr {
+  background: url(../images/line.png) no-repeat center;
+  opacity: 0.3;
   position: absolute;
-  margin-top: -8px;
+  height: 100%;
+  width: 100%;
 }
