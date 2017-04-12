@@ -732,7 +732,7 @@ header .transparent {
 }
 .footer-distributed .footer-icons a:hover {
   background: #72fd7f;
-  color: #fff;
+  color: #ffffff;
 }
 .grey-overlay {
   background: #f0f0f0;
@@ -762,4 +762,41 @@ header .transparent {
 }
 .registration .form-holder .form-conteiner.active {
   display: block;
+}
+.qa-bgr {
+  background: url(../images/line.png) no-repeat center;
+  background-color: #f1f1f1;
+}
+.qa-accordion-holder {
+  max-width: 1000px;
+  height: 100%;
+  padding: 200px 20px;
+  margin: 0 auto;
+}
+.qa-accordion-holder h3 {
+  font-weight: lighter;
+  font-size: 18px;
+}
+.qa-accordion-holder h3:hover {
+  color: #72fd7f;
+}
+.qa-accordion-holder p {
+  padding: 30px 40px;
+  max-width: 780px;
+  font-size: 14px;
+  background-color: #ffffff;
+  border-radius: 12px;
+  margin: 0px 20px;
+}
+.qa-accordion-holder ul {
+  display: flex;
+  flex: 1 1 50%;
+  justify-content: space-around;
+}
+.qa-accordion-holder ul li {
+  display: inline-block;
+  font-weight: 600;
+  color: #fff;
+  text-transform: uppercase;
+  text-decoration: none;
 }

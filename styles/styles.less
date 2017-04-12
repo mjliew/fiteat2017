@@ -466,7 +466,7 @@ header {
             margin-bottom: 5px;
             &:hover {
                 background: #72fd7f;
-                color: #fff;
+                color: #ffffff;
             }
         }
     }
@@ -509,4 +509,48 @@ header {
             }
         }
     }
+}
+
+.qa-bgr{
+    background: url(../images/line.png) no-repeat center;
+    background-color: #f1f1f1;
+    //opacity: 0.3;
+}
+.qa-accordion-holder{
+    max-width: 1000px;
+    height: 100%;
+    padding: 200px 20px;
+    margin: 0 auto;
+
+    h3{
+        font-weight: lighter;
+        font-size: 18px;
+
+        &:hover{
+            color: #72fd7f;
+         }
+    }
+
+   p{      
+       padding: 30px 40px;
+       max-width: 780px;
+       font-size: 14px;
+       background-color: #ffffff;
+       border-radius: 12px;
+       margin: 0px 20px;
+    }
+
+    ul{
+    display: flex;
+    flex: 1 1 50%;
+    justify-content: space-around;
+    li{
+        display: inline-block;
+        font-weight: @font-weight-bold;
+            color: @font-color-white;
+            text-transform: uppercase; 
+            text-decoration: none;
+    }
+    }
+    
 }
