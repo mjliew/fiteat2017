@@ -664,7 +664,7 @@ header .transparent {
   font-weight: normal;
   font-size: 14px;
   line-height: 2;
-} 
+}
 .footer-distributed .footer-center p a {
   color: #5383d3;
   text-decoration: none;
@@ -897,34 +897,72 @@ header .transparent {
   padding-left: 20px;
   font-family: 'Raleway', sans-serif;
 }
-.personal-info .col2 input {
+.personal-info .col2 {
   background-color: transparent;
   display: inline-block;
   position: relative;
-  float: right; 
+  float: right;
   margin-left: 30px;
   height: 277px;
   width: 350px;
   margin-top: 40px;
 }
-
-.personal-info .ui-accordion-content {
+.personal-info .col2 input {
+  border: 1px solid #dedede;
+  height: 30px;
+  width: 320px;
+  float: right;
+  padding-left: 10px;
+  margin-bottom: 33px;
+  margin-left: 10px;
+  font-size: 15px;
+  color: #8c8c8c;
+  outline: none;
+  font-family: 'Raleway', sans-serif;
+}
+.personal-info .col2 input .ui-accordion-content {
   height: auto!important;
   background: #fff;
   border-radius: 12px;
   padding: 20px;
 }
-.personal-info p {
+.personal-info .col2 input .submit {
+  display: inline-block;
+  height: 30px;
+  width: 166px;
+  float: right;
+  margin-top: 35px;
+}
+.personal-info .col2 input input[type="submit"] {
+  height: 45px;
+  width: 158px;
+  border: 0;
+  background-color: #69e278;
+  color: white;
+  font-size: 20px;
+  border-radius: 30px;
+  outline: none;
+}
+.personal-info .col2 input input[type="submit"]:hover {
+  background-color: #4bb157;
+}
+.personal-info .col2 input hr {
+  display: inline-block;
+  width: 70px;
+  background-color: white;
+  border: 0;
+}
+.personal-info .col2 input hr p {
   font-size: 14px;
   border-radius: 12px;
   margin: 0px 20px;
 }
-.personal-info ul {
+.personal-info .col2 input hr ul {
   display: flex;
   flex: 1 1 50%;
   justify-content: space-around;
 }
-.personal-info ul li {
+.personal-info .col2 input hr ul li {
   display: inline-block;
   font-weight: 600;
   color: #fff;
