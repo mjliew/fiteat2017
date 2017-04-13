@@ -797,7 +797,7 @@ header .transparent {
 }
 .qa .qa-accordion-holder .ui-accordion-content {
   height: auto!important;
-  background: #fff;
+  background: #ffffff;
   border-radius: 12px;
   padding: 20px;
 }
@@ -824,11 +824,16 @@ header .transparent {
   min-height: 600px;
 }
 .qa .qa-bgr {
-  background: url(../images/line.png) no-repeat center;
-  opacity: 0.3;
+  background: url(../images/FAQ-bgr.png) no-repeat center;
   position: absolute;
   height: 100%;
   width: 100%;
+}
+.qa .fa-minus-circle {
+  color: #66e572;
+}
+.qa .fa-plus-circle {
+  color: #ffffff;
 }
 .personal-info form {
   width: 700px;
