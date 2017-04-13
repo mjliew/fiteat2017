@@ -664,7 +664,7 @@ header .transparent {
   font-weight: normal;
   font-size: 14px;
   line-height: 2;
-}
+} 
 .footer-distributed .footer-center p a {
   color: #5383d3;
   text-decoration: none;
@@ -897,6 +897,17 @@ header .transparent {
   padding-left: 20px;
   font-family: 'Raleway', sans-serif;
 }
+.personal-info .col2 input {
+  background-color: transparent;
+  display: inline-block;
+  position: relative;
+  float: right;
+  margin-left: 30px;
+  height: 277px;
+  width: 350px;
+  margin-top: 40px;
+}
+
 .personal-info .ui-accordion-content {
   height: auto!important;
   background: #fff;
