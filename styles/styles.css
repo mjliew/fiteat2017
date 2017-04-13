@@ -901,7 +901,7 @@ header .transparent {
   background-color: transparent;
   display: inline-block;
   position: relative;
-  float: right;
+  float: right; 
   margin-left: 30px;
   height: 277px;
   width: 350px;
