@@ -777,20 +777,8 @@ header .transparent {
 }
 .qa .qa-accordion-holder h3 {
   font-weight: lighter;
-  font-size: 18px;
-}
-.qa .qa-accordion-holder h3:hover {
-  color: #72fd7f;
-}
-.qa .qa-accordion-holder {
-  margin: 0 auto;
-  max-width: 780px;
-  box-sizing: border-box;
-  padding-top: 20px;
-}
-.qa .qa-accordion-holder h3 {
-  font-weight: lighter;
-  font-size: 18px;
+  font-size: 16px;
+  color: #595959;
 }
 .qa .qa-accordion-holder h3:hover {
   color: #72fd7f;
@@ -829,10 +817,50 @@ header .transparent {
   height: 100%;
   width: 100%;
 }
+.qa .qa-contact-us-holder {
+  margin: 0 auto;
+  max-width: 780px;
+  box-sizing: border-box;
+  padding-top: 110px;
+  text-align: center;
+}
+.qa .qa-contact-us-holder h3 {
+  font-weight: lighter;
+  font-size: 28px;
+  color: #595959;
+}
+.qa .qa-contact-us-holder p {
+  font-size: 14px;
+  border-radius: 12px;
+  margin: 0px 20px;
+  padding-bottom: 20px;
+}
 .qa .fa-minus-circle {
   color: #66e572;
 }
 .qa .fa-plus-circle {
+  color: #ffffff;
+}
+.qa .qa-link-button {
+  display: block;
+  background: #66e572;
+  font-size: 12px;
+  font-weight: 600;
+  text-align: center;
+  box-sizing: border-box;
+  width: 120px;
+  height: 28px;
+  border-radius: 35px;
+  color: #fff;
+  text-transform: uppercase;
+  text-decoration: none;
+  transition: 0.3s;
+  cursor: pointer;
+  margin: 0 auto;
+  padding-top: 8px;
+}
+.qa .qa-link-button:hover {
+  background: #72fd7f;
   color: #ffffff;
 }
 .personal-info form {
