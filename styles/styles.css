@@ -311,6 +311,17 @@ html a:hover {
 .content-holder.header .logo {
   flex: 1 1 50%;
 }
+.content-holder.header.link-1 {
+  transition: 0.4s;
+  color: #ffffff;
+  text-decoration: none;
+  padding: 0 10px;
+  margin: 0 10px;
+}
+.content-holder.header .link-1:hover {
+  background-color: #2e3843;
+  padding: 24px 10px;
+}
 .content-holder.header ul {
   display: flex;
   flex: 1 1 50%;
@@ -782,6 +793,9 @@ header .transparent {
 }
 .qa .qa-accordion-holder h3:hover {
   color: #72fd7f;
+}
+.qa .qa-accordion-holder h3:active {
+  color: #72fd77;
 }
 .qa .qa-accordion-holder .ui-accordion-content {
   height: auto!important;
