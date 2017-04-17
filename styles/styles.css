@@ -311,17 +311,6 @@ html a:hover {
 .content-holder.header .logo {
   flex: 1 1 50%;
 }
-.content-holder.header.link-1 {
-  transition: 0.4s;
-  color: #ffffff;
-  text-decoration: none;
-  padding: 0 10px;
-  margin: 0 10px;
-}
-.content-holder.header .link-1:hover {
-  background-color: #2e3843;
-  padding: 24px 10px;
-}
 .content-holder.header ul {
   display: flex;
   flex: 1 1 50%;
@@ -428,6 +417,17 @@ header .transparent {
   width: 100%;
   position: absolute;
   height: 100%;
+}
+header.link-1 {
+  transition: 0.4s;
+  color: #ffffff;
+  text-decoration: none;
+  padding: 0 10px;
+  margin: 0 10px;
+}
+header .link-1:hover {
+  background-color: #2e3843;
+  padding: 24px 10px;
 }
 .main-slider {
   max-height: 1064px;
