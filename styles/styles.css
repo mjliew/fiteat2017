@@ -418,14 +418,14 @@ header .transparent {
   position: absolute;
   height: 100%;
 }
-header.link-1 {
+.link-1 {
   transition: 0.4s;
   color: #ffffff;
   text-decoration: none;
   padding: 0 10px;
   margin: 0 10px;
 }
-header .link-1:hover {
+.link-1:hover {
   background-color: #2e3843;
   padding: 24px 10px;
 }
