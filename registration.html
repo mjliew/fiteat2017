@@ -7,6 +7,7 @@
 	<link rel="stylesheet" type="text/css" href="styles/styles.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
  <script src="scripts/tdee.js"></script>
+ <script src="scripts/modal.js"></script>
 
 
 </head>
@@ -20,7 +21,7 @@
                 <span class="progress nutrition-info"></span>
                 <span class="progress payment-info"></span>
             </div>
-            <div class="form-holder">
+ <div class="form-holder">
                 
                 <div class="form-conteiner personal-info active">
                     <form name="register" method="get">
@@ -35,7 +36,7 @@
                             <input type="password" name="password" />
                         </div>
                         <div class="col2">
-                            <input type="text" name="first_last_name" placeholder="name, last name*" />
+                            <input type="text" name="first_last_name" placeholder="name, last name*"  />
                             <br>
                             <input type="text" name="email" placeholder="e-mail*"/>
                             <br>
@@ -51,23 +52,13 @@
                         </div>
 			        </form> 
                 </div>
+
+                    <!--Second screen-->
                 <div class="form-conteiner nutrition-info">
-                    
-                    <form>
-                        <div class="tdee">
-<!--Script by hscripts.com-->
-<!-- Free javascripts @ https://www.hscripts.com -->
-<!-- Script by hscripts.com -->
+                     
+                     <form>
 
-<table id ='tab' align='center' cellspacing='0' cellpadding='0' style="width:100%;">
-<tr><td align=center><br><b>Calorie Calculator</b><br><br><form name="frm" action="" class='frms noborders'><table><tr><td style="color: #3D366F; font-size:13px;">Age:</td><td><input type="text" name="age" id="age" align="left" size="3" maxlength="2" onkeypress="return cknum(event,age)"></td><td><font color="#3D366F" size="2">years</font></td></tr><tr><td style="color: #3D366F; font-size:13px;">Gender:</td><td><input type="radio" name="gen" id="gen" checked><font color="#3D366F" size="0.7">Male</font><input type="radio" name="gen" id="gen"><font color="#3D366F" size="0.7">Female</font></td></tr><tr><td style="color: #3D366F; font-size:13px;">Height:</td><td><select style='width:50%;' name="foot" id="foot" onchange="hcon()"><option value="1">1'</option><option value="2">2'</option><option value="3">3'</option><option value="4">4'</option><option value="5">5'</option><option value="6">6'</option><option value="7">7'</option></select><select style='width:40%;'name="inch" id="inch" onchange="hcon()"><option value="1">1"</option><option value="2">2"</option><option value="3">3"</option><option value="4">4"</option><option value="5">5"</option><option value="6">6"</option><option value="7">7"</option><option value="8">8"</option><option value="9">9"</option><option value="10">10"</option><option value="11">11"</option></select></td></tr><tr><td style="color: #3D366F; font-size:13px;">Cms :</td><td><input type="text" name="cen" id="cen" size="4" onkeyup="con(cen)"></td></tr><tr><td style="color: #3D366F; font-size:13px;">Weight:</td><td><input type="text" name="weight" id="weight" maxlength="3" size="3" onkeyup="isNumberKey(this.id)"></td><td><select name="wtype" id="wtype"><option value="kg">Kg</option><option value="pounds">Pounds</option></select></td></tr><tr><td style="color: #3D366F; font-size:13px;">Activeness:</td><td><select style='width:100px;' name="loa" id="loa"><option value="1">Sedentary</option><option value="2">Light Active</option><option value="3">Moderately Active</option><option value="4">Very Active</option><option value="5">Extra Active</option></select></td></tr><tr><td colspan='2' align="center"><input class='blue_button' type="button" value="Calculate The Calorie" onclick="cc()"><span id="dumdiv" align="center" style=" font-size: 10px;color: #dadada;"><a id="dum" style="padding-right:0px; text-decoration:none;color: green;text-align:center;" href="https://www.hscripts.com">©h</a></span></td></tr></table></form>
-<br><table align="center" border="0" class="frms noborders"><caption><b>Calorie Result</b></caption><tr><td align="right" style="color: #3D366F; font-size:13px;">Calorie Needed:</td><td><input type="text" id="rc" style="font-size:13px;" size="15" readonly></td><td><select name="caltype" id="caltype" onChange="convert()"><option value="g">Grams</option><option value="kg">Kilograms</option><option value="pounds">Pounds</option></select></td></tr></table><div style="color: #3D366F; font-size:13px;">You Must Intake The Following Daily</div><table class="frms noborders"><tr><td style="color: #3D366F; font-size:13px;">Fat:</td><td style="color: #3D366F; font-size:13px;"><input type="text" id="rf" style="font-size:13px;" size="10" readonly></td><td><font color="#3D366F" size="2" style='float:right'><label id="l1"></label> per day</font></td></tr><tr><td style="color: #3D366F; font-size:13px;">Protein:</td><td style="color: #3D366F; font-size:13px;"><input type="text" id="rp" style="font-size:13px;" size="10" readonly></td><td><font color="#3D366F" size="2" style='float:right'><label id="l2"></label> per day</font></td></tr><tr><td style="color: #3D366F; font-size:13px;">Carbohydrate:</td><td style="color: #3D366F; font-size:13px;"><input type="text" id="rh" style="font-size:13px;" size="10" readonly></td><td><font color="#3D366F" size="2" style='float:right'><label id="l3"></label> per day</font></td></tr><tr><td style="color: #3D366F; font-size:13px;">Alcohol:</td><td style="color: #3D366F; font-size:13px;"><input type="text" id="ra" style="font-size:13px;" size="10" readonly></td><td><font color="#3D366F" size="2" style='float:right'><label id="l4"></label> per day</font></td></tr></table>
-</tr></td>
-</table>
-
-
-   </div> 
-                        <div class="form-conteiner-side">
+  <div class="form-conteiner-side">
                             <input type="text"/>
                             <select>
                                 <option>LALA</option>
@@ -103,6 +94,54 @@
                             </select>
                         </div> 
                         <button>NEXT</button>
+                         <div class="tdee">
+<!-- Trigger/Open The Modal -->
+<button id="myBtn">Open Modal</button>
+
+<!-- The Modal -->
+<div id="myModal" class="modal">
+
+  <!-- Modal content -->
+  <div class="modal-content">
+    <span class="close">&times;</span>
+    <p>TDEE Calculator</p>
+ 
+
+<form name="frm"  class='frms noborders'>
+
+   <p>Age</p>
+                          <input type="text" name="age" id="age" onkeypress="return cknum(event,age)"placeholder="years">
+                            <br>
+   <p>Gender</p>
+                          <input type="radio" name="gen" id="gen" checked>
+            Male<input type="radio" name="gen" id="gen"> Female
+                            <br>
+    <p>Height</p>
+                          <input type="text" name="cen" id="cen" size="4" onkeyup="con(cen)" placeholder="Cm"> or
+    <select  name="foot" id="foot" onchange="hcon()" ><option value="1">1'</option><option value="2">2'</option><option value="3">3'</option><option value="4">4'</option><option value="5">5'</option><option value="6">6'</option><option value="7">7'</option></select>
+        <select name="inch" id="inch" onchange="hcon()" ><option value="1">1"</option><option value="2">2"</option><option value="3">3"</option><option value="4">4"</option><option value="5">5"</option><option value="6">6"</option><option value="7">7"</option><option value="8">8"</option><option value="9">9"</option><option value="10">10"</option><option value="11">11"</option></select>
+                            <br>
+<p>Weight</p>
+<input type="text" name="weight" id="weight" maxlength="3"  onkeyup="isNumberKey(this.id)"><select name="wtype" id="wtype"><option value="kg">Kg</option><option value="pounds">Pounds</option></select>
+<br>
+<p>Activeness</p><select style='width:100px;' name="loa" id="loa"><option value="1">Sedentary</option><option value="2">Light Active</option><option value="3">Moderately Active</option><option value="4">Very Active</option><option value="5">Extra Active</option></select><br>
+<input class='blue_button' type="button" value="Calculate" onclick="cc()">
+
+<span id="dumdiv" align="center" style=" font-size: 10px;color: #dadada;"><a id="dum" style="padding-right:0px; text-decoration:none;color: black;text-align:center;" href="https://www.hscripts.com">©h</a></span></td></tr></table></form>
+<br>
+<caption><b>Calorie Result</b></caption>
+Calorie Needed:<input type="text" id="rc" readonly><select name="caltype" id="caltype" onChange="convert()">
+    <option value="g">Grams</option>
+    <option value="kg">Kilograms</option>
+    <option value="pounds">Pounds</option></select>
+    You Must Intake The Following Daily</div>
+    Fat:<input type="text" id="rf" readonly><label id="l1"></label> per day<br>
+    Protein:<input type="text" id="rp"  readonly><label id="l2"></label> per day<br>
+    Carbohydrate:<input type="text" id="rh"  readonly><label id="l3"></label> per day<br>
+
+</div>
+ </div>
+   </div> 
                     </form> 
                 </div>
                 <div class="form-conteiner payment-info">
