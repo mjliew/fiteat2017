@@ -25,3 +25,21 @@ Web-service, wich provides talor made mealplans with the delivery around the Tal
  
  
  
+ =====Olga Popovits=====
+ Done so far
+ -Footer added into all required pages
+    -used there script with fonts, which are look like icons (awesome fonts script)
+    -hover effect
+    -external links to social media
+    
+ -Navigation bar styling added (e.g hover and animation)
+ -Slider and navigation moved into all required pages
+ -----------
+ Working on TDEE-calculator on the second page of the registration
+    -Found suitable java-script code and located properly
+    -Working on proper visual representation
+    -Supposed to appear as a pop-up window when user would like to calculate TDEE
+    
+=========================
+    
+ 
