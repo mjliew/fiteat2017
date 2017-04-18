@@ -38,7 +38,7 @@ Web-service, wich provides talor made mealplans with the delivery around the Tal
  Working on TDEE-calculator on the second page of the registration
     -Found suitable java-script code and located properly
     -Working on proper visual representation
-    -Supposed to appear as a pop-up window when user would like to calculate TDEE
+    -Supposed to appear as a pop-up window when user would like to calculate TDEE ===>DONE, but need styling
     
 =========================
     
