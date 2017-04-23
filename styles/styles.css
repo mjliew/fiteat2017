@@ -773,12 +773,6 @@ header .transparent {
 }
 .qa {
   background-color: #f1f1f1;
-  /*not working atm
-    .ui-icon-green
-    {
-        background-image: url(../images/qa-green-icons.png);
-    }
-    */
 }
 .qa .content-holder {
   position: relative;
@@ -810,6 +804,12 @@ header .transparent {
   background-color: transparent;
   border: transparent;
   outline: none;
+}
+.qa .qa-accordion-holder .ui-accordion-header .ui-icon-green {
+  background-image: url(../images/qa-green-icons.png);
+}
+.qa .qa-accordion-holder .ui-accordion-header .ui-icon-white {
+  background-image: url(../images/qa-white-icons.png);
 }
 .qa .qa-accordion-holder p {
   font-size: 14px;
