@@ -495,8 +495,8 @@ header .transparent {
   padding-top: 10px;
 }
 .link-button:hover {
-  background: #72fd7f;
-  color: #fff;
+  background: #4bb157;
+  color: #ffffff;
 }
 .company-photo {
   min-height: 700px;
@@ -511,7 +511,7 @@ header .transparent {
 }
 .company-photo p {
   font-size: 60px;
-  color: #fff;
+  color: #ffffff;
   font-weight: 300;
   text-align: center;
 }
@@ -653,15 +653,15 @@ header .transparent {
   line-height: 38px;
 }
 .footer-distributed .footer-center i.fa-envelope:hover {
-  background: #72fd7f;
+  background: #4bb157;
   color: #fff;
 }
 .footer-distributed .footer-center i.fa-phone:hover {
-  background: #72fd7f;
+  background: #4bb157;
   color: #fff;
 }
 .footer-distributed .footer-center i.fa-map-marker:hover {
-  background: #72fd7f;
+  background: #4bb157;
   color: #fff;
 }
 .footer-distributed .footer-center p {
@@ -798,7 +798,7 @@ header .transparent {
   color: #595959;
 }
 .qa .qa-accordion-holder h3:hover {
-  color: #72fd7f;
+  color: #4bb157;
 }
 .qa .qa-accordion-holder h3:active {
   color: #72fd77;
@@ -808,6 +808,11 @@ header .transparent {
   background: #ffffff;
   border-radius: 12px;
   padding: 20px;
+}
+.qa .qa-accordion-holder .ui-accordion-header {
+  background-color: transparent;
+  border: transparent;
+  outline: none;
 }
 .qa .qa-accordion-holder p {
   font-size: 14px;
@@ -875,7 +880,7 @@ header .transparent {
   padding-top: 8px;
 }
 .qa .qa-link-button:hover {
-  background: #72fd7f;
+  background: #4bb157;
   color: #ffffff;
 }
 .personal-info form {
@@ -895,8 +900,8 @@ header .transparent {
   background-color: #ffffff;
   height: 277px;
   width: 300px;
-  padding-left: 20px;
-  padding-top: 5px;
+  padding-left: 45px;
+  padding-top: 20px;
   display: inline-block;
   float: left;
   margin-top: 40px;
@@ -904,15 +909,13 @@ header .transparent {
 .personal-info .col1 input {
   border: 1px solid #dedede;
   border-radius: 26px;
-  height: 40px;
-  width: 255px;
-  font-size: 20px;
-  color: #8c8c8c;
+}
+.personal-info .col1 input header {
   outline: none;
   padding-left: 20px;
   font-family: 'Raleway', sans-serif;
 }
-.personal-info .col2 {
+.personal-info .col1 .col2 {
   background-color: transparent;
   display: inline-block;
   position: relative;
@@ -922,33 +925,42 @@ header .transparent {
   width: 350px;
   margin-top: 40px;
 }
-.personal-info .col2 input {
+.personal-info .col1 .col2 input {
   border: 1px solid #dedede;
   height: 30px;
-  width: 320px;
-  float: right;
-  padding-left: 10px;
-  margin-bottom: 33px;
-  margin-left: 10px;
-  font-size: 15px;
-  color: #8c8c8c;
+}
+.personal-info .col1 .col2 input header {
   outline: none;
   font-family: 'Raleway', sans-serif;
 }
-.personal-info .col2 input .ui-accordion-content {
-  height: auto!important;
-  background: #fff;
-  border-radius: 12px;
-  padding: 20px;
+.personal-info .col1 .col2 input .col1 {
+  background-color: #ffffff;
+  height: 277px;
+  width: 300px;
+  padding-left: 20px;
+  padding-top: 5px;
+  display: inline-block;
+  float: left;
+  margin-top: 40px;
 }
-.personal-info .col2 input .submit {
+.personal-info .col1 .col2 input .col2 {
+  background-color: transparent;
+  display: inline-block;
+  position: relative;
+  float: right;
+  margin-left: 30px;
+  height: 277px;
+  width: 350px;
+  margin-top: 40px;
+}
+.personal-info .col1 .col2 input .submit {
   display: inline-block;
   height: 30px;
   width: 166px;
   float: right;
   margin-top: 35px;
 }
-.personal-info .col2 input input[type="submit"] {
+.personal-info .col1 .col2 input input[type="submit"] {
   height: 45px;
   width: 158px;
   border: 0;
@@ -958,46 +970,44 @@ header .transparent {
   border-radius: 30px;
   outline: none;
 }
-.personal-info .col2 input input[type="submit"]:hover {
+.personal-info .col1 .col2 input input[type="submit"] header {
+  font-size: 20px;
+  border-radius: 30px;
+  outline: none;
+}
+.personal-info .col1 .col2 input input[type="submit"] input[type="submit"]:hover::hover {
   background-color: #4bb157;
 }
-.personal-info .col2 input hr {
+.personal-info .col1 .col2 input input[type="submit"] .title hr:first-child {
+  background-color: #69e279;
+}
+.personal-info .col1 .col2 input input[type="submit"] header {
+  position: absolute;
+  margin-top: -8px;
+}
+.personal-info .col1 .col2 input input[type="submit"] input[type="submit"]:hover::hover {
+  background-color: #4bb157;
+}
+.personal-info .col1 .col2 input input[type="submit"] hr {
   display: inline-block;
   width: 70px;
   background-color: white;
   border: 0;
 }
-.personal-info .col2 input hr p {
+.personal-info .col1 .col2 input input[type="submit"] hr p {
   font-size: 14px;
   border-radius: 12px;
   margin: 0px 20px;
 }
-.personal-info .col2 input hr ul {
+.personal-info .col1 .col2 input input[type="submit"] hr ul {
   display: flex;
   flex: 1 1 50%;
   justify-content: space-around;
 }
-.personal-info .col2 input hr ul li {
+.personal-info .col1 .col2 input input[type="submit"] hr ul li {
   display: inline-block;
   font-weight: 600;
   color: #fff;
   text-transform: uppercase;
   text-decoration: none;
-}
-.submit {
-			display: inline-block;
-			height: 30px;
-			width: 166px;
-			float: right;
-			margin-top: 35px;
-		}
-input[type="submit"] {
-			height: 45px;
-			width: 158px;
-			border: 0;
-			background-color: #69e278;
-			color: white;
-			font-size: 20px;
-			border-radius: 30px;
-			outline: none;
 }
