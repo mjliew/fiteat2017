@@ -49,24 +49,24 @@ Learnt to use LESS (kind of, stil no expert:))
 Painstaking process of understanding how to sync github & then use of Visual code studio & ensuring the commits actually goes through
 
 Learnt how to edit html code:
- -created "Still unsure" section with different divs for title, info
- -learnt how to add and style a button (with different states)
- -learnt to use div tags to assign classes
+ - Created "Still unsure" section with different divs for title, info
+ - Learnt how to add and style a button (with different states)
+ - Learnt to use div tags to assign classes
  
 Learnt to style:
- -how to change size and position of container
- -how to round corners:)
- -how to add padding to specific locations e.g. top, bottom
- -how to add a background picture and position it
- -or how to change the background color
- -how to change effects with state changes e.g. on hover, click
- -text: e.g. size, color, states, alignment, auto transformation (i.e. uppercase)
+ - how to change size and position of container
+ - how to round corners:)
+ - how to add padding to specific locations e.g. top, bottom
+ - how to add a background picture and position it
+ - or how to change the background color
+ - how to change effects with state changes e.g. on hover, click
+ - text: e.g. size, color, states, alignment, auto transformation (i.e. uppercase)
  
 Learnt to script a little:
- -how to make a collapsible accordion
- -with changing icons & effects
- -> still need to learn how to modify styles
+ - how to make a collapsible accordion
+ - with changing icons & effects
+ - > still need to learn how to modify styles
  
-->need to edit page two of registeration page
+>need to edit page two of registeration page
  
 =========================
