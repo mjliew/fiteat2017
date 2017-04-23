@@ -15,13 +15,11 @@
  <script>
   $( function() {
     var icons = {
-      header: "ui-icon-circle-plus",
-      activeHeader: "ui-icon-circle-minus"
+      header: "ui-icon-circle-arrow-e",
+      activeHeader: "ui-icon-circle-arrow-s"
     };
     $( ".accordion" ).accordion({
-      icons: icons,
-      collapsible: true
-      
+      icons: icons
     });
     $( "#toggle" ).button().on( "click", function() {
       if ( $( "#accordion" ).accordion( "option", "icons" ) ) {
@@ -56,7 +54,11 @@
     <div class="content-holder">
       <div class="qa-accordion-holder">
         <div class="accordion">
-          <h3 id="qa-switch-icon-only"> Why can I only select from two consultants?</h3>
+        <!-- this will cause errors when clicking on other questions
+        <h3 id="qa-click-switch-icon-error"><i class="fa fa-minus-circle"></i> Why can I only select from two consultants?</h3>
+        <div id="qa-answers">
+          -->
+          <h3 id="qa-switch-icon-only"><i class="fa fa-minus-circle"></i> Why can I only select from two consultants?</h3>
           <div id="qa-answers">
             <p>
               This is because we have already found from all our consultants,
@@ -65,14 +67,14 @@
 
             </p>
           </div>
-          <h3 id="qa-switch-icon-only"> Can I order for my parents with the same account?</h3>
+          <h3 id="qa-switch-icon-only"><i class="fa fa-plus-circle"></i> Can I order for my parents with the same account?</h3>
           <div>
             <p>
               Unfortunately this is not possible now. However we hear your needs
               and am working hard on it, stay tuned!
             </p>
           </div>
-          <h3 id="qa-switch-icon-only"> Why do I have so many questions?</h3>
+          <h3 id="qa-switch-icon-only"><i class="fa fa-plus-circle"></i> Why do I have so many questions?</h3>
           <div>
             <p>
               They say the smart one do.
@@ -82,7 +84,7 @@
               - Dr. Seuss
             </p>            
           </div>
-          <h3 id="qa-switch-icon-only"> What will happen if I cancel my meal package before it ends?</h3>
+          <h3 id="qa-switch-icon-only"><i class="fa fa-plus-circle"></i> What will happen if I cancel my meal package before it ends?</h3>
           <div>
             <p>
               This depends on the number of days left.
