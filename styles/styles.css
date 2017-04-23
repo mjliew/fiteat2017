@@ -396,6 +396,7 @@ header .transparent {
   font-weight: 300;
   text-transform: uppercase;
   text-align: center;
+  color: ##69e278
 }
 .content-holder.packages .package-gallery {
   display: flex;
@@ -426,6 +427,23 @@ header .transparent {
   text-align: center;
   padding: 20px 0;
 }
+.content-holder.packages .package-gallery .link-button details {
+			display: inline-block;
+			height: 15px;
+			width: 84px;
+			float: right;
+			margin-top: 35px;
+}
+.content-holder.packages .input[type="details"] {
+			height: 17px;
+			width: 76px;
+			border: 0;
+			background-color: #15c92d;
+			color: white;
+			font-size: 20px;
+			border-radius: 30px;
+			outline: none;
+      }
 .main-slider {
   max-height: 1064px;
 }
