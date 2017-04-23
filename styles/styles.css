@@ -788,11 +788,14 @@ header .transparent {
   font-size: 16px;
   color: #595959;
 }
+.qa .qa-accordion-holder h3.active {
+  color: #15c92d;
+}
 .qa .qa-accordion-holder h3:hover {
   color: #15c92d;
 }
-.qa .qa-accordion-holder h3:active {
-  color: #72fd77;
+.qa .qa-accordion-holder h3:focus {
+  color: #15c92d;
 }
 .qa .qa-accordion-holder .ui-accordion-content {
   height: auto!important;

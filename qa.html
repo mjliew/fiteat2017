@@ -5,12 +5,14 @@
 	<title>Registration</title>
 	<meta name="generator" content="DocBook XSL Stylesheets V1.76.1">
 	<link rel="stylesheet" type="text/css" href="styles/styles.css">
-  <!-- <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css"> -->
-  <link rel="stylesheet" href="http://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+  <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+  <!-- remove when testing locally
+  <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">-->
   <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
   <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
-  <link href="http://fonts.googleapis.com/css?family=Cookie" rel="stylesheet" type="text/css">
-    <!-- <link href="//fonts.googleapis.com/css?family=Cookie" rel="stylesheet" type="text/css"> -->
+  <!--remove when testing locally
+  <link href="http://fonts.googleapis.com/css?family=Cookie" rel="stylesheet" type="text/css">-->
+  <link href="//fonts.googleapis.com/css?family=Cookie" rel="stylesheet" type="text/css">
   <script src="https://use.fontawesome.com/b8f121fe7c.js"></script>
 
  <script>
@@ -19,18 +21,27 @@
       header: "ui-icon-white ui-icon-circle-plus",
       activeHeader: "ui-icon-green ui-icon-circle-minus"
     };
+
+
     $( ".accordion" ).accordion({
       icons: icons,
-      collapsible: true
-      
+      collapsible: true,
+      active: false
+      //event: "mouseover"
+
     });
-    $( "#toggle" ).button().on( "click", function() {
-      if ( $( "#accordion" ).accordion( "option", "icons" ) ) {
+    
+    
+    /*not necessary anymore with collapsible option
+    $( "#toggle" ).button().on( "click",  function() {
+      if ( $( "#" ).accordion( "option", "icons" ) ) {
         $( "#accordion" ).accordion( "option", "icons", null );
-      } else {
+      } 
+      
+      else {
         $( "#accordion" ).accordion( "option", "icons", icons );
       }
-    });
+    });*/
   } );
   </script>
 
@@ -56,9 +67,9 @@
     <div class="qa-bgr"></div>
     <div class="content-holder">
       <div class="qa-accordion-holder">
-        <div class="accordion">
+        <div class="accordion ui-accordion-toggle">
           <h3 id="qa-switch-icon-only"> Why can I only select from two consultants?</h3>
-          <div id="qa-answers">
+          <div>
             <p>
               This is because we have already found from all our consultants,
               the best one based on your food preferences. Please rest assured that
