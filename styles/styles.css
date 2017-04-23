@@ -495,7 +495,7 @@ header .transparent {
   padding-top: 10px;
 }
 .link-button:hover {
-  background: #72fd7f;
+  background: #15c92d;
   color: #fff;
 }
 .company-photo {
@@ -653,15 +653,15 @@ header .transparent {
   line-height: 38px;
 }
 .footer-distributed .footer-center i.fa-envelope:hover {
-  background: #72fd7f;
+  background: #15c92d;
   color: #fff;
 }
 .footer-distributed .footer-center i.fa-phone:hover {
-  background: #72fd7f;
+  background: #15c92d;
   color: #fff;
 }
 .footer-distributed .footer-center i.fa-map-marker:hover {
-  background: #72fd7f;
+  background: #15c92d;
   color: #fff;
 }
 .footer-distributed .footer-center p {
@@ -742,7 +742,7 @@ header .transparent {
   margin-bottom: 5px;
 }
 .footer-distributed .footer-icons a:hover {
-  background: #72fd7f;
+  background: #15c92d;
   color: #ffffff;
 }
 .grey-overlay {
@@ -798,10 +798,10 @@ header .transparent {
   color: #595959;
 }
 .qa .qa-accordion-holder h3:hover {
-  color: #72fd7f;
+  color: #15c92d;
 }
 .qa .qa-accordion-holder h3:active {
-  color: #72fd77;
+  color: #15c92d;
 }
 .qa .qa-accordion-holder .ui-accordion-content {
   height: auto!important;
@@ -875,7 +875,7 @@ header .transparent {
   padding-top: 8px;
 }
 .qa .qa-link-button:hover {
-  background: #72fd7f;
+  background: #15c92d;
   color: #ffffff;
 }
 .personal-info form {
@@ -959,7 +959,7 @@ header .transparent {
   outline: none;
 }
 .personal-info .col2 input input[type="submit"]:hover {
-  background-color: #4bb157;
+  background-color: #15c92d;
 }
 .personal-info .col2 input hr {
   display: inline-block;
@@ -1001,3 +1001,6 @@ input[type="submit"] {
 			border-radius: 30px;
 			outline: none;
 }
+	input[type="submit"]:hover {
+			background-color: #15c92d;
+		}
