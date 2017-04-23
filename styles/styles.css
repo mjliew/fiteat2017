@@ -409,9 +409,6 @@ header .transparent {
   flex-direction: column;
   flex: 0 1 30%;
   min-height: 300px;
-  -webkit-box-shadow: 0px -1px 26px -5px #171717;
-  -moz-box-shadow: 0px -1px 26px -5px #171717;
-  box-shadow: 0px -1px 26px -5px #171717;
 }
 .content-holder.packages .package-gallery .package img {
   max-width: 100%;
@@ -495,7 +492,7 @@ header .transparent {
   padding-top: 10px;
 }
 .link-button:hover {
-  background: #4bb157;
+  background: #15c92d;
   color: #ffffff;
 }
 .company-photo {
@@ -653,15 +650,15 @@ header .transparent {
   line-height: 38px;
 }
 .footer-distributed .footer-center i.fa-envelope:hover {
-  background: #4bb157;
+  background: #15c92d;
   color: #fff;
 }
 .footer-distributed .footer-center i.fa-phone:hover {
-  background: #4bb157;
+  background: #15c92d;
   color: #fff;
 }
 .footer-distributed .footer-center i.fa-map-marker:hover {
-  background: #4bb157;
+  background: #15c92d;
   color: #fff;
 }
 .footer-distributed .footer-center p {
@@ -742,7 +739,7 @@ header .transparent {
   margin-bottom: 5px;
 }
 .footer-distributed .footer-icons a:hover {
-  background: #72fd7f;
+  background: #15c92d;
   color: #ffffff;
 }
 .grey-overlay {
@@ -798,7 +795,7 @@ header .transparent {
   color: #595959;
 }
 .qa .qa-accordion-holder h3:hover {
-  color: #4bb157;
+  color: #15c92d;
 }
 .qa .qa-accordion-holder h3:active {
   color: #72fd77;
@@ -880,7 +877,7 @@ header .transparent {
   padding-top: 8px;
 }
 .qa .qa-link-button:hover {
-  background: #4bb157;
+  background: #15c92d;
   color: #ffffff;
 }
 .personal-info form {
@@ -964,7 +961,7 @@ header .transparent {
   height: 45px;
   width: 158px;
   border: 0;
-  background-color: #69e278;
+  background-color: #15c92d;
   color: white;
   font-size: 20px;
   border-radius: 30px;
@@ -976,7 +973,7 @@ header .transparent {
   outline: none;
 }
 .personal-info .col1 .col2 input input[type="submit"] input[type="submit"]:hover::hover {
-  background-color: #4bb157;
+  background-color: #15c92d;
 }
 .personal-info .col1 .col2 input input[type="submit"] .title hr:first-child {
   background-color: #69e279;
@@ -986,7 +983,7 @@ header .transparent {
   margin-top: -8px;
 }
 .personal-info .col1 .col2 input input[type="submit"] input[type="submit"]:hover::hover {
-  background-color: #4bb157;
+  background-color: #15c92d;
 }
 .personal-info .col1 .col2 input input[type="submit"] hr {
   display: inline-block;
