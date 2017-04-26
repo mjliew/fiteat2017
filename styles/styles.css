@@ -396,7 +396,6 @@ header .transparent {
   font-weight: 300;
   text-transform: uppercase;
   text-align: center;
-  color: #69e278
 }
 .content-holder.packages .package-gallery {
   display: flex;
@@ -427,22 +426,6 @@ header .transparent {
   text-align: center;
   padding: 20px 0;
 }
-.content-holder.packages .package-gallery .link-button details {
-			height: 15px;
-			width: 84px;
-			float: right;
-			margin-top: 35px;
-}
-.content-holder.packages .input[type="details"] {
-			height: 17px;
-			width: 76px;
-			border: 0;
-			background-color: #15c92d;
-			color: white;
-			font-size: 20px;
-			border-radius: 30px;
-			outline: none;
-      }
 .main-slider {
   max-height: 1064px;
 }
@@ -764,7 +747,7 @@ header .transparent {
 }
 .registration .registration-header {
   color: #000000;
-  font-size: 97px;
+  font-size: 80px;
   text-align: left;
   font-weight: 300;
 }
@@ -989,114 +972,109 @@ header .transparent {
   background: #15c92d;
   color: #ffffff;
 }
-	.personal-info 	form {
-			width: 700px;
-			margin: auto;
-			position: relative;
-			font-family: 'Raleway', sans-serif;
-		}
-	.personal-info 	p {
-			margin: 0px;
-			margin-top: 17px;
-			margin-left: 20px;
-			margin-bottom: 3px;
-			color: #a09a9a;
-		}
-	.personal-info 	.col1 input {
-			border: 1px solid #dedede;
-			border-radius: 26px;
-			height: 40px;
-			width: 278px;
-			font-size: 20px;
-			color: #8c8c8c;
-			outline: none;
-			padding-left: 20px;
-			font-family: 'Raleway', sans-serif;
-		}
-	.personal-info 	.col1 {
-			background-color: #ffffff;
-			height: 277px;
-			width: 300px;
-			padding-left: 20px;
-			padding-top: 5px;
-      margin-top: 17px;
-			display: inline-block;
-			float: left;
-		}
-	.personal-info 	.col2 input {
-			border: 1px solid #dedede;
-			height: 33px;
-			width: 320px;
-			padding-left: 10px;
-			margin-bottom: 28px;
-			margin-left: 10px;
-			font-size: 15px;
-			color: #8c8c8c;
-			outline: none;
-			font-family: 'Raleway', sans-serif;
-		}
-	.personal-info 	.col2 {
-			background-color: transparent;
-			display: inline-block;
-			position: relative;
-			float: left;
-			margin-top: 17px;
-      margin-left: 30px;
-			height: 277px;
-			width: 350px;
-		}
-	.personal-info 	.submit {
-			display: inline-block;
-			height: 30px;
-			width: 166px;
-			float: right;
-			margin-top: 35px;
-		}
-	.personal-info 	input[type="submit"] {
-			height: 45px;
-			width: 158px;
-			border: 0;
-			background-color: #69e278;
-			color: white;
-			font-size: 20px;
-			border-radius: 30px;
-			outline: none;
-
-		}
-		  input[type="submit"]:hover {
-      background-color: #15c92d;
-		
+.personal-info form {
+  width: 700px;
+  margin: auto;
+  position: relative;
+  font-family: 'Raleway', sans-serif;
 }
-.personal-info .col1 .col2 input input[type="submit"] input[type="submit"]:hover::hover {
+.personal-info header p {
+  margin: 0px;
+  margin-top: 17px;
+  margin-left: 20px;
+  margin-bottom: 3px;
+  color: #a09a9a;
+}
+.personal-info header .col1 input {
+  border: 1px solid #dedede;
+  border-radius: 26px;
+  height: 40px;
+  width: 278px;
+  font-size: 20px;
+  color: #8c8c8c;
+  outline: none;
+  padding-left: 20px;
+  font-family: 'Raleway', sans-serif;
+}
+.personal-info header .col1 {
+  background-color: #ffffff;
+  height: 277px;
+  width: 300px;
+  padding-left: 20px;
+  padding-top: 5px;
+  margin-top: 17px;
+  display: inline-block;
+  float: left;
+}
+.personal-info header .col2 input {
+  border: 1px solid #dedede;
+  height: 33px;
+  width: 320px;
+  padding-left: 10px;
+  margin-bottom: 28px;
+  margin-left: 10px;
+  font-size: 15px;
+  color: #8c8c8c;
+  outline: none;
+  font-family: 'Raleway', sans-serif;
+}
+.personal-info header .col2 {
+  background-color: transparent;
+  display: inline-block;
+  position: relative;
+  float: left;
+  margin-top: 17px;
+  margin-left: 30px;
+  height: 277px;
+  width: 350px;
+}
+.personal-info header .submit {
+  display: inline-block;
+  height: 30px;
+  width: 166px;
+  float: right;
+  margin-top: 35px;
+}
+.personal-info header input[type="submit"] {
+  height: 45px;
+  width: 158px;
+  border: 0;
+  background-color: #69e278;
+  color: white;
+  font-size: 20px;
+  border-radius: 30px;
+  outline: none;
+}
+.personal-info header input[type="submit"] input[type="submit"]:hover:hover {
   background-color: #15c92d;
 }
-.personal-info .col1 .col2 input input[type="submit"] .title hr:first-child {
+.personal-info header input[type="submit"] .title hr:first-child {
   background-color: #69e279;
 }
-.personal-info .col1 .col2 input input[type="submit"] header {
+.personal-info header input[type="submit"] header {
   position: absolute;
   margin-top: -8px;
 }
-.personal-info .col1 .col2 input input[type="submit"] input[type="submit"]:hover::hover {
+.personal-info header input[type="submit"] input[type="submit"]:hover::hover {
   background-color: #15c92d;
 }
-.personal-info .col1 .col2 input input[type="submit"] hr {
+.personal-info header input[type="submit"] hr {
   display: inline-block;
   width: 70px;
   background-color: white;
   border: 0;
 }
-.personal-info .col1 .col2 input input[type="submit"] hr p {
+.personal-info header input[type="submit"] hr p {
   font-size: 14px;
   border-radius: 12px;
   margin: 0px 20px;
 }
-.personal-info .col1 .col2 input input[type="submit"] hr ul {
+.personal-info header input[type="submit"] hr ul {
   display: flex;
   flex: 1 1 50%;
   justify-content: space-around;
 }
-.personal-info .col1 .col2 input input[type="submit"] hr ul li {
+.personal-info header input[type="submit"] hr ul li {
   display: inline-block;
   font-weight: 600;
   color: #fff;
