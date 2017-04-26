@@ -396,7 +396,7 @@ header .transparent {
   font-weight: 300;
   text-transform: uppercase;
   text-align: center;
-  color: ##69e278
+  color: #69e278
 }
 .content-holder.packages .package-gallery {
   display: flex;
@@ -1029,3 +1029,4 @@ header .transparent {
   text-transform: uppercase;
   text-decoration: none;
 }
+
