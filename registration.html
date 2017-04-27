@@ -56,24 +56,72 @@
                 <div class="form-conteiner nutrition-info">
                      
                      <form name="register-2" method="post">
-                         <div class="col-left">
+                         <div class="col-left"> <!-- hoping to re-use col2 style of personal-info-->
                              <select name="gender">
                                 <option  disabled selected>Gender</option>
                                 <option value="male">male</option>
                                 <option value="female">female</option>
                                 <option value="prefer-not-to-say">prefer not to say</option>
-                            </select><br>
+                            </select>
+                            <br>
                             <input type="text" name="dob" style="font-weight: bold" placeholder="dd/mm/yy"  />
                             <br>
-                            <input type="text" name="email" placeholder="e-mail*"/>
+                            <input type="text" name="height-cm" style="font-weight: bold" placeholder="Height (cm)*"/>
                             <br>
-                            <input type="text" name="phone" placeholder="phone number"/>
+                            <input type="text" name="weight-kg" style="font-weight: bold" placeholder="Weight (cm)"/>
                             <br>
-                            <input type="text" name="adress" placeholder="adress"/>
-                            <br>
-                            <input type="text" name="zip_code" placeholder="zip code"/>
+                            <input type="text" name="activity-level" style="font-weight: bold" placeholder="Activity Level"/>
                             <br>
                         </div>
+
+                        <div class="col-right"> <!-- hoping to re-use col2 style of personal-info-->
+                             <select name="calorie-intake">
+                                <option  disabled selected>Calorie Intake</option>
+                                <option value="1200">1200</option>
+                                <option value="1400">1400</option>
+                                <option value="1600">1600</option>
+                                <option value="1800">1800</option>
+                                <option value="2000">2000</option>
+                                <option value="2200">2200</option>
+                                <option value="idk">Do not know</option>
+                            </select>
+                            <br>
+                            <select name="goal">
+                                <option  disabled selected>Goal</option>
+                                <option value="lose-weight">Lose Weight</option>
+                                <option value="gain-muscles">Gain Muscles</option>
+                                <option value="eat-healthy-and-balanced">Eat Healthy And Balanced</option>
+                                <option value="as-little-sugar-as-possible">As Little Sugar As Possible</option>
+                                <option value="boost-vitamins-intake">Boost Vitamins Intake</option>
+                                <option value="none">Do not have</option>
+                            </select>
+                            <br>
+                            <!--The datalist tag is not supported in Safari or IE9 (and earlier).-->
+                            <input list="excluded-ingredents1" placeholder="Ingredients to Exclude">
+                            <datalist id="excluded-ingredents1">
+                                <option value="barley">
+                                <option value="crab">
+                                <option value="cereals containing gluten">
+                                <option value="crustaceans">
+                                <option value="eggs">
+                                <option value="fish">
+                                <option value="lobster">
+                                <option value="lupin">
+                                <option value="molluses">
+                                <option value="milk">
+                                <option value="mustard">
+                                <option value="nuts">
+                                <option value="oats">
+                                <option value="peanuts">
+                                <option value="prawn">
+                                <option value="rye">
+                                <option value="soybean">
+                                <option value="sesame">
+                                <option value="wheat">
+                            </datalist>
+                            <br>
+                        </div>
+
                         <div class="submit">
                             <input type="submit" name="submit" value="Next" />
                         </div>
