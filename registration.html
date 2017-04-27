@@ -57,7 +57,13 @@
                      
                      <form name="register-2" method="post">
                          <div class="col-left">
-                            <input type="text" name="first_last_name" placeholder="name, last name*"  />
+                             <select name="gender">
+                                <option  disabled selected>Gender</option>
+                                <option value="male">male</option>
+                                <option value="female">female</option>
+                                <option value="prefer-not-to-say">prefer not to say</option>
+                            </select><br>
+                            <input type="text" name="dob" style="font-weight: bold" placeholder="dd/mm/yy"  />
                             <br>
                             <input type="text" name="email" placeholder="e-mail*"/>
                             <br>
