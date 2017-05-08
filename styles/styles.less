@@ -520,7 +520,7 @@ header {
     }
      body {
   font-family: Helvetica, sans-serif;
-  background: url(http://www.shukatsu-note.com/wp-content/uploads/2014/12/computer-564136_1280.jpg) no-repeat;
+  background: @button-color;
   background-size: cover;
   height: 100vh;
 }
@@ -533,7 +533,7 @@ h1 {
 }
 
 .button {
-  font-size: 1em;
+   font-size: 15px;
   padding: 10px;
   color: #fff;
   border: 2px solid #06D85F;
@@ -574,9 +574,37 @@ h1 {
 
 .popup h2 {
   margin-top: 0;
-  color: #333;
-  font-family: Tahoma, Arial, sans-serif;
+  color: #06D85F;
+  font-family: Helvetica, Arial, sans-serif;
 }
+.nutrient {
+ margin-top: 0;
+  color: #331;
+  font-family: Helvetica, Arial, sans-serif; 
+}
+.blue_button{ 
+
+    display: block;
+    background: @button-color;
+    font-size: 24px;
+    font-weight: @font-weight-bold;
+    text-align: center;
+    box-sizing: border-box;
+    width: 215px;
+    height:54px;
+    border-radius: 35px;
+    color: @font-color-white;
+    text-transform: uppercase;
+    transition: 0.3s;
+    cursor: pointer;
+    margin: 0 auto;
+    padding-top: 10px;
+    &:hover{
+        background: #15c92d;
+        color: #ffffff;  
+    }
+}
+
 .popup .close {
   position: absolute;
   top: 20px;
