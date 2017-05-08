@@ -621,7 +621,8 @@ h1 {
   color: #06D85F;
 }
 .popup .content {
-  max-height: 30%;
+  max-height: 70%;
+  max-width: 70%;
   overflow: auto;
 }
 
@@ -884,8 +885,12 @@ h1 {
         
         }
 }
-	.col-left  {
-			background-color: transparent;
+
+.nutrition-info{
+form {
+     display: flex;
+    justify-content: space-around;
+    background-color: transparent;
 			
 			position: relative;
 		    float: left;
@@ -893,8 +898,9 @@ h1 {
             margin-left: 30px;
 			height: 277px;
 			width: 350px;
-		}
-.col-left input {
+}
+
+	 input {
 			border: 1px solid #dedede;
 			height: 33px;
 			width: 320px;
@@ -906,43 +912,7 @@ h1 {
 			outline: none;
 			font-family: 'Raleway', sans-serif;
 		}
-        .col-left select {
-			border: 1px solid #dedede;
-			height: 33px;
-			width: 320px;
-			padding-left: 10px;
-			margin-bottom: 28px;
-			margin-left: 10px;
-			font-size: 15px;
-			color: #8c8c8c;
-			outline: none;
-			font-family: 'Raleway', sans-serif;
-		}
-	
-		
-      	.col-middle  {
-			background-color: transparent;
-			float: left;
-			position: relative;
-		
-			margin-top: 17px;
-            margin-left: 30px;
-			height: 277px;
-			width: 350px;
-		}
-         .col-middle input {
-			border: 1px solid #dedede;
-			height: 33px;
-			width: 320px;
-			padding-left: 10px;
-			margin-bottom: 28px;
-			margin-left: 10px;
-			font-size: 15px;
-			color: #8c8c8c;
-			outline: none;
-			font-family: 'Raleway', sans-serif;
-		}
-        .col-middle select {
+        select {
 			border: 1px solid #dedede;
 			height: 33px;
 			width: 320px;
@@ -955,41 +925,6 @@ h1 {
 			font-family: 'Raleway', sans-serif;
 		}
 	
-	     	.col-right  {
-			background-color: transparent;
-			float: left;
-			position: relative;
-		
-			margin-top: 17px;
-            margin-left: 30px;
-			height: 277px;
-			width: 350px;
-		}
-          .col-right input {
-			border: 1px solid #dedede;
-			height: 33px;
-			width: 320px;
-			padding-left: 10px;
-			margin-bottom: 28px;
-			margin-left: 10px;
-			font-size: 15px;
-			color: #8c8c8c;
-			outline: none;
-			font-family: 'Raleway', sans-serif;
-		}
-        .col-right select {
-			border: 1px solid #dedede;
-			height: 33px;
-			width: 320px;
-			padding-left: 10px;
-			margin-bottom: 28px;
-			margin-left: 10px;
-			font-size: 15px;
-			color: #8c8c8c;
-			outline: none;
-			font-family: 'Raleway', sans-serif;
-		}
-		
         .submit {
 			display: inline-block;
 			height: 30px;
@@ -1014,12 +949,12 @@ h1 {
 			background-color: #69e279;
 		}
         
-
-		input[type="submit"]:hover {
+	input[type="submit"]:hover {
             &::hover {
                 background-color: #15c92d;
             }
 		}
+}
 .col{
     background: red;
 }
