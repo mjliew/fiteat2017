@@ -621,7 +621,8 @@ h1 {
   color: #06D85F;
 }
 .popup .content {
-  max-height: 30%;
+  max-height: 70%;
+  max-width: 70%;
   overflow: auto;
 }
 
@@ -948,6 +949,75 @@ input[type="submit"]:hover {
     &::hover {
         background-color: #15c92d;
     }
+
+.nutrition-info{
+    form {
+        display: flex;
+        justify-content: space-around;
+        background-color: transparent;
+                
+                position: relative;
+                float: left;
+                margin-top: 17px;
+                margin-left: 30px;
+                height: 277px;
+                width: 350px;
+    }
+
+	 input {
+			border: 1px solid #dedede;
+			height: 33px;
+			width: 320px;
+			padding-left: 10px;
+			margin-bottom: 28px;
+			margin-left: 10px;
+			font-size: 15px;
+			color: #8c8c8c;
+			outline: none;
+			font-family: 'Raleway', sans-serif;
+		}
+        select {
+			border: 1px solid #dedede;
+			height: 33px;
+			width: 320px;
+			padding-left: 10px;
+			margin-bottom: 28px;
+			margin-left: 10px;
+			font-size: 15px;
+			color: #8c8c8c;
+			outline: none;
+			font-family: 'Raleway', sans-serif;
+		}
+	
+        .submit {
+			display: inline-block;
+			height: 30px;
+			width: 166px;
+			float: right;
+			margin-top: 35px;
+		}
+		input[type="submit"] {
+			height: 45px;
+			width: 158px;
+			border: 0;
+			background-color: #69e278;
+			color: white;
+			font-size: 20px;
+			border-radius: 30px;
+			outline: none;
+            &:hover {
+                background-color: #15c92d;
+            }
+        }
+		.title hr:first-child {
+			background-color: #69e279;
+		}
+        
+	input[type="submit"]:hover {
+            &::hover {
+                background-color: #15c92d;
+            }
+		}
 }
 .col{
     background: red;

@@ -860,7 +860,8 @@ header .transparent {
   color: #06D85F;
 }
 .registration .popup .content {
-  max-height: 30%;
+  max-height: 70%;
+  max-width: 70%;
   overflow: auto;
 }
 @media screen and (max-width: 700px) {
@@ -1089,11 +1090,26 @@ header .transparent {
   text-transform: uppercase;
   text-decoration: none;
 }
+<<<<<<< HEAD
 .register-2 {
   display: flex;
   justify-content: space-between;
 }
 .register-2 .form-child input {
+=======
+.nutrition-info form {
+  display: flex;
+  justify-content: space-around;
+  background-color: transparent;
+  position: relative;
+  float: left;
+  margin-top: 17px;
+  margin-left: 30px;
+  height: 277px;
+  width: 350px;
+}
+.nutrition-info input {
+>>>>>>> 5b95882b6a623d29036d41f151c50b79236de998
   border: 1px solid #dedede;
   height: 33px;
   width: 320px;
@@ -1105,7 +1121,11 @@ header .transparent {
   outline: none;
   font-family: 'Raleway', sans-serif;
 }
+<<<<<<< HEAD
 .register-2 .form-child select {
+=======
+.nutrition-info select {
+>>>>>>> 5b95882b6a623d29036d41f151c50b79236de998
   border: 1px solid #dedede;
   height: 33px;
   width: 320px;
@@ -1117,14 +1137,14 @@ header .transparent {
   outline: none;
   font-family: 'Raleway', sans-serif;
 }
-.submit {
+.nutrition-info .submit {
   display: inline-block;
   height: 30px;
   width: 166px;
   float: right;
   margin-top: 35px;
 }
-input[type="submit"] {
+.nutrition-info input[type="submit"] {
   height: 45px;
   width: 158px;
   border: 0;
@@ -1134,13 +1154,13 @@ input[type="submit"] {
   border-radius: 30px;
   outline: none;
 }
-input[type="submit"]:hover {
+.nutrition-info input[type="submit"]:hover {
   background-color: #15c92d;
 }
-.title hr:first-child {
+.nutrition-info .title hr:first-child {
   background-color: #69e279;
 }
-input[type="submit"]:hover::hover {
+.nutrition-info input[type="submit"]:hover::hover {
   background-color: #15c92d;
 }
 .col {
