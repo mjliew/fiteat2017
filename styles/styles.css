@@ -779,17 +779,22 @@ header .transparent {
   margin: 80px 0;
 }
 .registration .button {
-  font-size: 15px;
-  padding: 10px;
-  color: #fff;
+  display: inline-block;
+  padding-left: 10px;
+  margin-bottom: 10px;
+  margin-left: 10px;
+  font-size: 10px;
+  padding: 6px;
+  color: #06D85F;
   border: 2px solid #06D85F;
-  border-radius: 0.4px;
+  border-radius: 35px;
   text-decoration: none;
   cursor: pointer;
   transition: all 0.3s ease-out;
 }
 .registration .button:hover {
   background: #06D85F;
+  color: #ffffff;
 }
 .registration .overlay {
   position: fixed;
@@ -813,7 +818,7 @@ header .transparent {
   border-radius: 5px;
   width: 30%;
   position: relative;
-  transition: all 5s ease-in-out;
+  transition: all 0.5s ease-in-out;
 }
 .registration .popup h2 {
   margin-top: 0;
@@ -826,21 +831,16 @@ header .transparent {
   font-family: Helvetica, Arial, sans-serif;
 }
 .registration .blue_button {
-  display: block;
+  display: inline-block;
   background: #66e572;
-  font-size: 12px;
-  font-weight: 600;
-  text-align: center;
-  box-sizing: border-box;
-  width: 100px;
-  height: 30px;
-  border-radius: 35px;
+  font-size: 10px;
+  padding: 6px;
   color: #fff;
-  text-transform: uppercase;
-  transition: 0.3s;
+  border: 2px solid #66e572;
+  border-radius: 35px;
+  text-decoration: none;
   cursor: pointer;
-  margin: 0 auto;
-  padding-top: 10px;
+  transition: all 0.3s ease-out;
 }
 .registration .blue_button:hover {
   background: #15c92d;
@@ -1089,6 +1089,15 @@ header .transparent {
   text-transform: uppercase;
   text-decoration: none;
 }
+.col-left {
+  background-color: transparent;
+  position: relative;
+  float: left;
+  margin-top: 17px;
+  margin-left: 30px;
+  height: 277px;
+  width: 350px;
+}
 .col-left input {
   border: 1px solid #dedede;
   height: 33px;
@@ -1113,11 +1122,10 @@ header .transparent {
   outline: none;
   font-family: 'Raleway', sans-serif;
 }
-.col-left {
+.col-middle {
   background-color: transparent;
-  display: inline-block;
-  position: relative;
   float: left;
+  position: relative;
   margin-top: 17px;
   margin-left: 30px;
   height: 277px;
@@ -1147,11 +1155,10 @@ header .transparent {
   outline: none;
   font-family: 'Raleway', sans-serif;
 }
-.col-middle {
+.col-right {
   background-color: transparent;
-  display: inline-block;
-  position: relative;
   float: left;
+  position: relative;
   margin-top: 17px;
   margin-left: 30px;
   height: 277px;
@@ -1180,16 +1187,6 @@ header .transparent {
   color: #8c8c8c;
   outline: none;
   font-family: 'Raleway', sans-serif;
-}
-.col-right {
-  background-color: transparent;
-  display: inline-block;
-  position: relative;
-  float: left;
-  margin-top: 17px;
-  margin-left: 30px;
-  height: 277px;
-  width: 350px;
 }
 .submit {
   display: inline-block;
