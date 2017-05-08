@@ -891,6 +891,8 @@ h1 {
 .register-2{
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
+
     .form-child{
         input{
             border: 1px solid #dedede;
@@ -921,11 +923,7 @@ h1 {
           
 		
 .submit {
-    display: inline-block;
-    height: 30px;
-    width: 166px;
-    float: right;
-    margin-top: 35px;
+    flex: 1 1 100%;
 }
 input[type="submit"] {
     height: 45px;
@@ -1021,4 +1019,5 @@ input[type="submit"]:hover {
 }
 .col{
     background: red;
+}
 }

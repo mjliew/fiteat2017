@@ -1090,14 +1090,58 @@ header .transparent {
   text-transform: uppercase;
   text-decoration: none;
 }
-<<<<<<< HEAD
 .register-2 {
   display: flex;
   justify-content: space-between;
+  flex-wrap: wrap;
 }
 .register-2 .form-child input {
-=======
-.nutrition-info form {
+  border: 1px solid #dedede;
+  height: 33px;
+  width: 320px;
+  padding-left: 10px;
+  margin-bottom: 28px;
+  margin-left: 10px;
+  font-size: 15px;
+  color: #8c8c8c;
+  outline: none;
+  font-family: 'Raleway', sans-serif;
+}
+.register-2 .form-child select {
+  border: 1px solid #dedede;
+  height: 33px;
+  width: 320px;
+  padding-left: 10px;
+  margin-bottom: 28px;
+  margin-left: 10px;
+  font-size: 15px;
+  color: #8c8c8c;
+  outline: none;
+  font-family: 'Raleway', sans-serif;
+}
+.submit {
+  flex: 1 1 100%;
+}
+input[type="submit"] {
+  height: 45px;
+  width: 158px;
+  border: 0;
+  background-color: #69e278;
+  color: white;
+  font-size: 20px;
+  border-radius: 30px;
+  outline: none;
+}
+input[type="submit"]:hover {
+  background-color: #15c92d;
+}
+.title hr:first-child {
+  background-color: #69e279;
+}
+input[type="submit"]:hover::hover {
+  background-color: #15c92d;
+}
+input[type="submit"]:hover .nutrition-info form {
   display: flex;
   justify-content: space-around;
   background-color: transparent;
@@ -1108,8 +1152,7 @@ header .transparent {
   height: 277px;
   width: 350px;
 }
-.nutrition-info input {
->>>>>>> 5b95882b6a623d29036d41f151c50b79236de998
+input[type="submit"]:hover .nutrition-info input {
   border: 1px solid #dedede;
   height: 33px;
   width: 320px;
@@ -1121,11 +1164,7 @@ header .transparent {
   outline: none;
   font-family: 'Raleway', sans-serif;
 }
-<<<<<<< HEAD
-.register-2 .form-child select {
-=======
-.nutrition-info select {
->>>>>>> 5b95882b6a623d29036d41f151c50b79236de998
+input[type="submit"]:hover .nutrition-info select {
   border: 1px solid #dedede;
   height: 33px;
   width: 320px;
@@ -1137,14 +1176,14 @@ header .transparent {
   outline: none;
   font-family: 'Raleway', sans-serif;
 }
-.nutrition-info .submit {
+input[type="submit"]:hover .nutrition-info .submit {
   display: inline-block;
   height: 30px;
   width: 166px;
   float: right;
   margin-top: 35px;
 }
-.nutrition-info input[type="submit"] {
+input[type="submit"]:hover .nutrition-info input[type="submit"] {
   height: 45px;
   width: 158px;
   border: 0;
@@ -1154,15 +1193,15 @@ header .transparent {
   border-radius: 30px;
   outline: none;
 }
-.nutrition-info input[type="submit"]:hover {
+input[type="submit"]:hover .nutrition-info input[type="submit"]:hover {
   background-color: #15c92d;
 }
-.nutrition-info .title hr:first-child {
+input[type="submit"]:hover .nutrition-info .title hr:first-child {
   background-color: #69e279;
 }
-.nutrition-info input[type="submit"]:hover::hover {
+input[type="submit"]:hover .nutrition-info input[type="submit"]:hover::hover {
   background-color: #15c92d;
 }
-.col {
+input[type="submit"]:hover .col {
   background: red;
 }
