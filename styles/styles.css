@@ -308,17 +308,6 @@ header .transparent {
   position: absolute;
   height: 100%;
 }
-.link-1 {
-  transition: 0.4s;
-  color: #ffffff;
-  text-decoration: none;
-  padding: 0 10px;
-  margin: 0 10px;
-}
-.link-1:hover {
-  background-color: #2e3843;
-  padding: 24px 10px;
-}
 .content-holder {
   max-width: 1400px;
   height: 100%;
@@ -348,6 +337,10 @@ header .transparent {
   color: #fff;
   text-transform: uppercase;
   text-decoration: none;
+  transition: 0.3s;
+}
+.content-holder.header ul li a:hover {
+  color: #66e572;
 }
 .content-holder.order-process {
   display: flex;
