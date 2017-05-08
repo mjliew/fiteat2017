@@ -1089,16 +1089,11 @@ header .transparent {
   text-transform: uppercase;
   text-decoration: none;
 }
-.col-left {
-  background-color: transparent;
-  position: relative;
-  float: left;
-  margin-top: 17px;
-  margin-left: 30px;
-  height: 277px;
-  width: 350px;
+.register-2 {
+  display: flex;
+  justify-content: space-between;
 }
-.col-left input {
+.register-2 .form-child input {
   border: 1px solid #dedede;
   height: 33px;
   width: 320px;
@@ -1110,73 +1105,7 @@ header .transparent {
   outline: none;
   font-family: 'Raleway', sans-serif;
 }
-.col-left select {
-  border: 1px solid #dedede;
-  height: 33px;
-  width: 320px;
-  padding-left: 10px;
-  margin-bottom: 28px;
-  margin-left: 10px;
-  font-size: 15px;
-  color: #8c8c8c;
-  outline: none;
-  font-family: 'Raleway', sans-serif;
-}
-.col-middle {
-  background-color: transparent;
-  float: left;
-  position: relative;
-  margin-top: 17px;
-  margin-left: 30px;
-  height: 277px;
-  width: 350px;
-}
-.col-middle input {
-  border: 1px solid #dedede;
-  height: 33px;
-  width: 320px;
-  padding-left: 10px;
-  margin-bottom: 28px;
-  margin-left: 10px;
-  font-size: 15px;
-  color: #8c8c8c;
-  outline: none;
-  font-family: 'Raleway', sans-serif;
-}
-.col-middle select {
-  border: 1px solid #dedede;
-  height: 33px;
-  width: 320px;
-  padding-left: 10px;
-  margin-bottom: 28px;
-  margin-left: 10px;
-  font-size: 15px;
-  color: #8c8c8c;
-  outline: none;
-  font-family: 'Raleway', sans-serif;
-}
-.col-right {
-  background-color: transparent;
-  float: left;
-  position: relative;
-  margin-top: 17px;
-  margin-left: 30px;
-  height: 277px;
-  width: 350px;
-}
-.col-right input {
-  border: 1px solid #dedede;
-  height: 33px;
-  width: 320px;
-  padding-left: 10px;
-  margin-bottom: 28px;
-  margin-left: 10px;
-  font-size: 15px;
-  color: #8c8c8c;
-  outline: none;
-  font-family: 'Raleway', sans-serif;
-}
-.col-right select {
+.register-2 .form-child select {
   border: 1px solid #dedede;
   height: 33px;
   width: 320px;
