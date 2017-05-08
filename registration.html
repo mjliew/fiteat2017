@@ -154,31 +154,55 @@
                         </div>
 
                     <!--TDEE start-->
-                        <div class="box">
-                            <a class="button" href="#popup1">Calorie Calc is popping HERE:)</a>
-                        </div>
+              <div class="box">
+                <a class="button" href="#popup1">Calorie Calculator</a>
+              </div>
 
-                        <div id="popup1" class="overlay">
-                            <div class="popup">
-                                <h2>TDEE Calculator</h2>
-                                <a class="close" href="#">&times;</a>
-                                <div class="content">
-                                    <form name="frm"  class='frms noborders'>
+              <div id="popup1" class="overlay">
+                 <div class="popup">
+                    <h2>Calorie Calculator</h2>
+                            <a class="close" href="#">&times;</a>
+                            <div class="content">
+                            <form name="frm"  class='frms noborders'>
 
-                        <p>Age</p>
-                                                <input type="text" name="age" id="age" onkeypress="return cknum(event,age)"placeholder="years">
-                                                    <br>
-                        <p>Gender</p>
-                                                <input type="radio" name="gen" id="gen" checked>
-                                    Male<input type="radio" name="gen" id="gen"> Female
-                                                    <br>
-                            <p>Height</p>
-                                                <input type="text" name="cen" id="cen" size="4" onkeyup="con(cen)" placeholder="Cm"> or
-                            <select  name="foot" id="foot" onchange="hcon()" ><option value="1">1'</option><option value="2">2'</option><option value="3">3'</option><option value="4">4'</option><option value="5">5'</option><option value="6">6'</option><option value="7">7'</option></select>
-                                <select name="inch" id="inch" onchange="hcon()" ><option value="1">1"</option><option value="2">2"</option><option value="3">3"</option><option value="4">4"</option><option value="5">5"</option><option value="6">6"</option><option value="7">7"</option><option value="8">8"</option><option value="9">9"</option><option value="10">10"</option><option value="11">11"</option></select>
-                                                    <br>
-                            <p>Weight</p>
-                            <input type="text" name="weight" id="weight" maxlength="3"  onkeyup="isNumberKey(this.id)"><select name="wtype" id="wtype"><option value="kg">Kg</option><option value="pounds">Pounds</option></select>
+             <p>Age</p>
+                <input type="text" name="age" id="age" onkeypress="return cknum(event,age)"placeholder="years">
+                <br>
+             <p>Gender</p>
+                <input type="radio" name="gen" id="gen" checked>
+                                    Male<input type="radio" name="gen" id="gen"> 
+                                    Female
+                                    <br>
+             <p>Height</p>
+                <input type="text" name="cen" id="cen" size="4" onkeyup="con(cen)" placeholder="Cm">
+                 or
+                <select  name="foot" id="foot" onchange="hcon()" >
+                    <option value="1">1'</option>
+                    <option value="2">2'</option>
+                    <option value="3">3'</option>
+                    <option value="4">4'</option>
+                    <option value="5">5'</option>
+                    <option value="6">6'</option>
+                    <option value="7">7'</option>
+                </select>
+                <select name="inch" id="inch" onchange="hcon()" >
+                    <option value="1">1"</option>
+                    <option value="2">2"</option>
+                    <option value="3">3"</option>
+                    <option value="4">4"</option>
+                    <option value="5">5"</option>
+                    <option value="6">6"</option>
+                    <option value="7">7"</option>
+                    <option value="8">8"</option>
+                    <option value="9">9"</option>
+                    <option value="10">10"</option>
+                    <option value="11">11"</option>
+                    </select>
+                    <br>
+             <p>Weight</p>
+                 <input type="text" name="weight" id="weight" maxlength="3"  onkeyup="isNumberKey(this.id)"
+                 <select name="wtype" id="wtype">
+                     <option value="kg">Kg</option><option value="pounds">Pounds</option></select>
                             <br>
                             <p>Activeness</p><select style='width:100px;' name="loa" id="loa"><option value="1">Sedentary</option><option value="2">Light Active</option><option value="3">Moderately Active</option><option value="4">Very Active</option><option value="5">Extra Active</option></select><br>
                             <input class='blue_button' type="button" value="Calculate" onclick="cc()">
