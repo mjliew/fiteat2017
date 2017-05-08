@@ -828,12 +828,12 @@ header .transparent {
 .registration .blue_button {
   display: block;
   background: #66e572;
-  font-size: 24px;
+  font-size: 12px;
   font-weight: 600;
   text-align: center;
   box-sizing: border-box;
-  width: 215px;
-  height: 54px;
+  width: 100px;
+  height: 30px;
   border-radius: 35px;
   color: #fff;
   text-transform: uppercase;
@@ -1088,6 +1088,126 @@ header .transparent {
   color: #fff;
   text-transform: uppercase;
   text-decoration: none;
+}
+.col-left input {
+  border: 1px solid #dedede;
+  height: 33px;
+  width: 320px;
+  padding-left: 10px;
+  margin-bottom: 28px;
+  margin-left: 10px;
+  font-size: 15px;
+  color: #8c8c8c;
+  outline: none;
+  font-family: 'Raleway', sans-serif;
+}
+.col-left select {
+  border: 1px solid #dedede;
+  height: 33px;
+  width: 320px;
+  padding-left: 10px;
+  margin-bottom: 28px;
+  margin-left: 10px;
+  font-size: 15px;
+  color: #8c8c8c;
+  outline: none;
+  font-family: 'Raleway', sans-serif;
+}
+.col-left {
+  background-color: transparent;
+  display: inline-block;
+  position: relative;
+  float: left;
+  margin-top: 17px;
+  margin-left: 30px;
+  height: 277px;
+  width: 350px;
+}
+.submit {
+  display: inline-block;
+  height: 30px;
+  width: 166px;
+  float: right;
+  margin-top: 35px;
+}
+input[type="submit"] {
+  height: 45px;
+  width: 158px;
+  border: 0;
+  background-color: #69e278;
+  color: white;
+  font-size: 20px;
+  border-radius: 30px;
+  outline: none;
+}
+input[type="submit"]:hover {
+  background-color: #15c92d;
+}
+.title hr:first-child {
+  background-color: #69e279;
+}
+input[type="submit"]:hover::hover {
+  background-color: #15c92d;
+}
+.col-middle input {
+  border: 1px solid #dedede;
+  height: 33px;
+  width: 320px;
+  padding-left: 10px;
+  margin-bottom: 28px;
+  margin-left: 10px;
+  font-size: 15px;
+  color: #8c8c8c;
+  outline: none;
+  font-family: 'Raleway', sans-serif;
+}
+.col-middle select {
+  border: 1px solid #dedede;
+  height: 33px;
+  width: 320px;
+  padding-left: 10px;
+  margin-bottom: 28px;
+  margin-left: 10px;
+  font-size: 15px;
+  color: #8c8c8c;
+  outline: none;
+  font-family: 'Raleway', sans-serif;
+}
+.col-middle {
+  background-color: transparent;
+  display: inline-block;
+  position: relative;
+  float: left;
+  margin-top: 17px;
+  margin-left: 30px;
+  height: 277px;
+  width: 350px;
+}
+.submit {
+  display: inline-block;
+  height: 30px;
+  width: 166px;
+  float: right;
+  margin-top: 35px;
+}
+input[type="submit"] {
+  height: 45px;
+  width: 158px;
+  border: 0;
+  background-color: #69e278;
+  color: white;
+  font-size: 20px;
+  border-radius: 30px;
+  outline: none;
+}
+input[type="submit"]:hover {
+  background-color: #15c92d;
+}
+.title hr:first-child {
+  background-color: #69e279;
+}
+input[type="submit"]:hover::hover {
+  background-color: #15c92d;
 }
 .col {
   background: red;
