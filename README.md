@@ -42,31 +42,43 @@ Web-service, wich provides talor made mealplans with the delivery around the Tal
     
 =========================
 
-=====Ming Jia Liew=====
-Found out how to implement Framework Icons in jQuery UI
-Found out how to solve linking error with http vs https
-Learnt to use LESS (kind of, stil no expert:))
-Painstaking process of understanding how to sync github & then use of Visual code studio & ensuring the commits actually goes through
+Ming Jia Liew
+-
 
-Learnt how to edit html code:
- - Created "Still unsure" section with different divs for title, info
- - Learnt how to add and style a button (with different states)
- - Learnt to use div tags to assign classes
+General:
+ - Learnt to use LESS (kind of, stil no expert:))
+ - Painstaking process of understanding how to sync github & then use of Visual code studio & ensuring the commits actually goes through
+
+FAQ page (HTML + CSS):    
+ - Learnt how to edit html code:
+   - Created "Still unsure" section with different divs for title, info
+   - Learnt how to add and style a button (with different states)
+   - Learnt to use div tags to assign classes
  
-Learnt to style:
- - how to change size and position of container
- - how to round corners:)
- - how to add padding to specific locations e.g. top, bottom
- - how to add a background picture and position it
- - or how to change the background color
- - how to change effects with state changes e.g. on hover, click
- - text: e.g. size, color, states, alignment, auto transformation (i.e. uppercase)
+ - Learnt to style:
+   - how to change size and position of container
+   - how to round corners:)
+   - how to add padding to specific locations e.g. top, bottom
+   - how to add a background picture and position it
+   - or how to change the background color
+   - how to change effects with state changes e.g. on hover, click
+   - text: e.g. size, color, states, alignment, auto transformation (i.e. uppercase)
  
-Learnt to script a little:
- - how to make a collapsible accordion
- - with changing icons & effects
- - > still need to learn how to modify styles
+ - Learnt to script a little:
+   - How to make a collapsible accordion
+     - Change state changes e.g. active, hover...
+     - Toggle states & change icons based on state
+       - implement Framework Icons in jQuery UI
+       - create own themes from http://jqueryui.com/themeroller/ , download locally, upload to project and call in code
+   - Found out how to solve linking error with http vs https
+     - Use // in place of http
  
->need to edit page two of registeration page
- 
-=========================
+Registration page 2 (HTML):
+ - Learnt how to make a form:
+   - Better understand types i.e. get, post
+   - Learnt how to make a dropdown menu
+     - Learnt workabout method to have a "label" in dropdown
+       - Creating disabled option and have it first to be the "Label"
+   - Learnt how to make a smart "search box" aka datalist
+   - Learnt how to do in-line styling i.e. font weight to make it bold
+
