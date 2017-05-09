@@ -94,65 +94,75 @@
                                 <option value="idk">Do not know</option>
                             </select>
                             <br>
-                            <!--<div class="tdee">
-                                <div class="box">
-                                    <a class="button" href="#popup1">CALCULATE</a>
-                                </div>
+                         </div>
+<div class="tdee">
+    <div class="box">
+        <a class="button" href="#popup1">CALCULATE</a>
+    </div>
 
-                                <div id="popup1" class="overlay">
-                                    <div class="popup">
-                                        <h2>Calorie and Macronutrient Calculator</h2>
+    <div id="popup1" class="overlay">
+        <div class="popup">
+                         <h2>Calorie and Macronutrient Calculator</h2>
                                         <a class="close" href="#">&times;</a>
-                                        <div class="content">
-                                            <form name="frm" class='frms noborders'>
-
-                                                <p>Age</p>
-                                                <input type="text" name="age" id="age" onkeypress="return cknum(event,age)" placeholder="years">
-                                                <br>
-                                                <p>Gender</p>
+                 <div class="content">
+                    <form name="frm" class="frms noborders">
+                        <div> <p>Age</p>
+                        <input type="text" name="age" id="age" onkeypress="return cknum(event,age)" placeholder="years">
+                        </div>
+                        <div> <p>Gender</p>
                                                 <input type="radio" name="gen" id="gen" checked> Male
                                                 <input type="radio" name="gen" id="gen"> Female
-                                                <br>
-                                                <p>Height</p>
+                        </div>
+                        <div>
+                              <p>Height</p>
                                                 <input type="text" name="cen" id="cen" size="4" onkeyup="con(cen)" placeholder="Cm">                                                or
-                                                <select name="foot" id="foot" onchange="hcon()"><option value="1">1'</option><option value="2">2'</option><option value="3">3'</option><option value="4">4'</option><option value="5">5'</option><option value="6">6'</option><option value="7">7'</option></select>
-                                                <select name="inch" id="inch" onchange="hcon()"><option value="1">1"</option><option value="2">2"</option><option value="3">3"</option><option value="4">4"</option><option value="5">5"</option><option value="6">6"</option><option value="7">7"</option><option value="8">8"</option><option value="9">9"</option><option value="10">10"</option><option value="11">11"</option></select>
-                                                <br>
-                                                <p>Weight</p>
+                                                <select name="foot" id="foot" onchange="hcon()">
+                                                    <option value="1">1'</option>
+                                                    <option value="2">2'</option>
+                                                    <option value="3">3'</option>
+                                                    <option value="4">4'</option>
+                                                    <option value="5">5'</option>
+                                                    <option value="6">6'</option>
+                                                    <option value="7">7'</option>
+                                                    </select>
+                                                <select name="inch" id="inch" onchange="hcon()">
+                                                    <option value="1">1"</option>
+                                                    <option value="2">2"</option>
+                                                    <option value="3">3"</option>
+                                                    <option value="4">4"</option>
+                                                    <option value="5">5"</option>
+                                                    <option value="6">6"</option>
+                                                    <option value="7">7"</option>
+                                                    <option value="8">8"</option>
+                                                    <option value="9">9"</option>
+                                                    <option value="10">10"</option>
+                                                    <option value="11">11"</option>
+                                                    </select>
+                        </div>
+                        <div><p>Weight</p>
                                                 <input type="text" name="weight" id="weight" maxlength="3" onkeyup="isNumberKey(this.id)">
                                                 <select name="wtype" id="wtype">
                                                     <option value="kg">Kg</option>
                                                     <option value="pounds">Pounds</option>
-                                                    </select>
-                                                <br>
-                                                <p>Activeness</p><select style='width:100px;' name="loa" id="loa"><option value="1">Sedentary</option><option value="2">Light Active</option><option value="3">Moderately Active</option><option value="4">Very Active</option><option value="5">Extra Active</option></select><br>
-                                                <br>
-                                                <input class='blue_button' type="button" value="CALCULATE" onclick="cc()">
-
-                                                <span id="dumdiv" align="center" style=" font-size: 10px;color: #dadada;"><a id="dum" style="padding-right:0px; text-decoration:none;color: black;text-align:center;" href="https://www.hscripts.com">©h</a></span></td>
-                                                
-                                                
-                                            </form>
-                                            <br>
-                                            <caption><b>Calorie Result</b></caption>
-                                            <input type="text" id="rc" readonly><select name="caltype" id="caltype" onChange="convert()">
-                                            <select>
-                                                <option value="g">Grams</option>
-                                                <option value="kg">Kilograms</option>
-                                                <option value="pounds">Pounds</option>
-                                            </select>
-                                            <div class="nutrient"> Macronutrient profile</div>
-                                            Fat:<input type="text" id="rf" readonly><label id="l1"></label> per day<br> Protein:
-                                            <input type="text" id="rp" readonly><label id="l2"></label> per day<br> Carbohydrate:
-                                            <input type="text" id="rh" readonly><label id="l3"></label> per day<br>
-                                        </div>
-                                    </div>
-
-                                    
-                                </div>
-
-                            </div>-->
+                                                    </select><br>
                         </div>
+                        <div> <p>Activeness</p>
+                                            <select name="loa" id="loa">
+                                                <option value="1">Sedentary</option>
+                                                <option value="2">Light Active</option>
+                                                <option value="3">Moderately Active</option>
+                                                <option value="4">Very Active</option>
+                                                <option value="5">Extra Active</option></select>
+                                                
+                        </div>
+                        <div>
+                             <input class='blue_button' type="button" value="CALCULATE" onclick="cc()">
+                        </div>
+                 </div>
+        </div>
+    </div>
+            
+</div>
                         <div class="form-child col-right">
                                 <!-- hoping to re-use col2 style of personal-info-->
                                 <!--The datalist tag is not supported in Safari or IE9 (and earlier).-->
