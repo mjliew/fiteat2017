@@ -941,3 +941,43 @@ input[type="submit"]:hover {
 }
 
 }
+
+.chat-bot{
+    width: 300px;
+    background: @button-color;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    .chat-bot-body{
+        display: none;
+        transition: 0.4s;
+        background: #fff;
+        padding: 0 10px;
+        .input{
+            position: absolute;
+            bottom: 10px;
+            width: 100%;
+            input{
+                width: 80%;
+                height: 40px;
+            }
+            a{
+                display: inline-block;
+                padding: 5px;
+                border-radius: 5px;
+                background: @button-color;
+                color: #fff;
+            }
+        }
+        &.expanded{
+            height: 400px;
+            display: block;
+        }
+    }
+    p{
+        color: #fff;
+        padding-left: 10px;
+        height: 30px;
+        font-weight: bold;
+    }
+}

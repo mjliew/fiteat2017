@@ -1123,3 +1123,42 @@ header .transparent {
 .registration input[type="submit"]:hover::hover {
   background-color: #15c92d;
 }
+.chat-bot {
+  width: 300px;
+  background: #66e572;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+}
+.chat-bot .chat-bot-body {
+  display: none;
+  transition: 0.4s;
+  background: #fff;
+  padding: 0 10px;
+}
+.chat-bot .chat-bot-body .input {
+  position: absolute;
+  bottom: 10px;
+  width: 100%;
+}
+.chat-bot .chat-bot-body .input input {
+  width: 80%;
+  height: 40px;
+}
+.chat-bot .chat-bot-body .input a {
+  display: inline-block;
+  padding: 5px;
+  border-radius: 5px;
+  background: #66e572;
+  color: #fff;
+}
+.chat-bot .chat-bot-body.expanded {
+  height: 400px;
+  display: block;
+}
+.chat-bot p {
+  color: #fff;
+  padding-left: 10px;
+  height: 30px;
+  font-weight: bold;
+}
