@@ -809,7 +809,7 @@ header {
 //============TDEE calc popup=============
 
     .button {
-    display: block;
+   /* display: block;
     flex: 1 1 100%;
     background: @button-color;
     font-size: 24px;
@@ -819,12 +819,21 @@ header {
     width: 215px;
     height:54px;
     border-radius: 35px;
-    color: @font-color-white;
+    color: @font-color-white;*/
+      display: inline-block;
  
-   
- }
+  font-size: 10px;
+  padding: 6px;
+  
+  color: #fff;
+  border: 2px solid @button-color;
+  border-radius: 35px;
+  text-decoration: none;
+  cursor: pointer;
+  transition: all 0.3s ease-out;
+
 .button:hover {
-  background: #06D85F;
+  background: red;
   color: #ffffff;
 }
 
@@ -981,3 +990,4 @@ input[type="submit"]:hover {
         font-weight: bold;
     }
 }
+    }
