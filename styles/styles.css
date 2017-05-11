@@ -989,6 +989,10 @@ header .transparent {
   justify-content: space-between;
   flex-wrap: wrap;
 }
+.register-2 .form-child {
+  margin-top: 17px;
+  margin-left: 30px;
+}
 .register-2 .form-child input {
   border: 1px solid #dedede;
   height: 33px;
@@ -1013,12 +1017,11 @@ header .transparent {
   outline: none;
   font-family: 'Raleway', sans-serif;
 }
-.button {
+.tdee .button {
   display: block;
   flex: 1 1 100%;
   background: #66e572;
   font-size: 24px;
-  font-weight: 600;
   text-align: center;
   box-sizing: border-box;
   width: 215px;
@@ -1026,11 +1029,11 @@ header .transparent {
   border-radius: 35px;
   color: #fff;
 }
-.button:hover {
+.tdee .button:hover {
   background: #06D85F;
   color: #ffffff;
 }
-.overlay {
+.tdee .overlay {
   position: fixed;
   top: 0;
   bottom: 0;
@@ -1041,11 +1044,11 @@ header .transparent {
   visibility: hidden;
   opacity: 0;
 }
-.overlay:target {
+.tdee .overlay:target {
   visibility: visible;
   opacity: 1;
 }
-.popup {
+.tdee .popup {
   margin: 70px auto;
   padding: 20px;
   background: #fff;
@@ -1054,11 +1057,11 @@ header .transparent {
   position: relative;
   transition: all 0.5s ease-in-out;
 }
-.popup h2 {
+.tdee .popup h2 {
   margin-top: 0;
   font-family: Helvetica, Arial, sans-serif;
 }
-.blue_button {
+.tdee .blue_button {
   display: inline-block;
   background: #66e572;
   font-size: 10px;
@@ -1070,11 +1073,11 @@ header .transparent {
   cursor: pointer;
   transition: all 0.3s ease-out;
 }
-.blue_button:hover {
+.tdee .blue_button:hover {
   background: #15c92d;
   color: #ffffff;
 }
-.popup .close {
+.tdee .popup .close {
   position: absolute;
   top: 20px;
   right: 30px;
@@ -1084,27 +1087,27 @@ header .transparent {
   text-decoration: none;
   color: #333;
 }
-.popup .close:hover {
+.tdee .popup .close:hover {
   color: #06D85F;
 }
-.popup .content {
+.tdee .popup .content {
   max-height: 70%;
   max-width: 70%;
   overflow: auto;
 }
 @media screen and (max-width: 700px) {
-  .box {
+  .tdee .box {
     width: 70%;
   }
-  .popup {
+  .tdee .popup {
     width: 70%;
   }
 }
-.submit {
+.tdee .submit {
   flex: 1 1 100%;
   text-align: center;
 }
-input[type="submit"] {
+.tdee input[type="submit"] {
   height: 45px;
   width: 158px;
   border: 0;
@@ -1114,49 +1117,49 @@ input[type="submit"] {
   border-radius: 30px;
   outline: none;
 }
-input[type="submit"]:hover {
+.tdee input[type="submit"]:hover {
   background-color: #15c92d;
 }
-.title hr:first-child {
+.tdee .title hr:first-child {
   background-color: #69e279;
 }
-input[type="submit"]:hover::hover {
+.tdee input[type="submit"]:hover::hover {
   background-color: #15c92d;
 }
-.chat-bot {
+.tdee .chat-bot {
   width: 300px;
   background: #66e572;
   position: fixed;
   bottom: 0;
   right: 0;
 }
-.chat-bot .chat-bot-body {
+.tdee .chat-bot .chat-bot-body {
   display: none;
   transition: 0.4s;
   background: #fff;
   padding: 0 10px;
 }
-.chat-bot .chat-bot-body .input {
+.tdee .chat-bot .chat-bot-body .input {
   position: absolute;
   bottom: 10px;
   width: 100%;
 }
-.chat-bot .chat-bot-body .input input {
+.tdee .chat-bot .chat-bot-body .input input {
   width: 80%;
   height: 40px;
 }
-.chat-bot .chat-bot-body .input a {
+.tdee .chat-bot .chat-bot-body .input a {
   display: inline-block;
   padding: 5px;
   border-radius: 5px;
   background: #66e572;
   color: #fff;
 }
-.chat-bot .chat-bot-body.expanded {
+.tdee .chat-bot .chat-bot-body.expanded {
   height: 400px;
   display: block;
 }
-.chat-bot p {
+.tdee .chat-bot p {
   color: #fff;
   padding-left: 10px;
   height: 30px;
