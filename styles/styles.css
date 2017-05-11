@@ -766,62 +766,62 @@ header .transparent {
 .registration .form-holder .form-conteiner.active {
   display: block;
 }
-.registration .qa {
+.qa {
   background-color: #f1f1f1;
 }
-.registration .qa .content-holder {
+.qa .content-holder {
   position: relative;
   margin-bottom: 50px;
 }
-.registration .qa .qa-accordion-holder {
+.qa .qa-accordion-holder {
   margin: 0 auto;
   max-width: 780px;
   min-height: 600px;
   box-sizing: border-box;
   padding-top: 160px;
 }
-.registration .qa .qa-accordion-holder h3 {
+.qa .qa-accordion-holder h3 {
   font-weight: lighter;
   font-size: 16px;
   color: #595959;
 }
-.registration .qa .qa-accordion-holder h3.active {
+.qa .qa-accordion-holder h3.active {
   color: #15c92d;
 }
-.registration .qa .qa-accordion-holder h3:hover {
+.qa .qa-accordion-holder h3:hover {
   color: #15c92d;
 }
-.registration .qa .qa-accordion-holder h3:focus {
+.qa .qa-accordion-holder h3:focus {
   color: #15c92d;
 }
-.registration .qa .qa-accordion-holder .ui-accordion-content {
+.qa .qa-accordion-holder .ui-accordion-content {
   height: auto!important;
   background: #ffffff;
   border-radius: 12px;
   padding: 20px;
 }
-.registration .qa .qa-accordion-holder .ui-accordion-header {
+.qa .qa-accordion-holder .ui-accordion-header {
   background-color: transparent;
   border: transparent;
   outline: none;
 }
-.registration .qa .qa-accordion-holder .ui-accordion-header .ui-icon-green {
+.qa .qa-accordion-holder .ui-accordion-header .ui-icon-green {
   background-image: url(../images/qa-green-icons.png);
 }
-.registration .qa .qa-accordion-holder .ui-accordion-header .ui-icon-white {
+.qa .qa-accordion-holder .ui-accordion-header .ui-icon-white {
   background-image: url(../images/qa-white-icons.png);
 }
-.registration .qa .qa-accordion-holder p {
+.qa .qa-accordion-holder p {
   font-size: 14px;
   border-radius: 12px;
   margin: 0px 20px;
 }
-.registration .qa .qa-accordion-holder ul {
+.qa .qa-accordion-holder ul {
   display: flex;
   flex: 1 1 50%;
   justify-content: space-around;
 }
-.registration .qa .qa-accordion-holder ul li {
+.qa .qa-accordion-holder ul li {
   display: list-item;
   font-weight: 600;
   font-size: 12px;
@@ -829,35 +829,35 @@ header .transparent {
   text-decoration: none;
   width: 150px;
 }
-.registration .qa .qa-bgr-holder {
+.qa .qa-bgr-holder {
   margin-bottom: -80px;
   position: relative;
   min-height: 600px;
 }
-.registration .qa .qa-bgr {
+.qa .qa-bgr {
   background: url(../images/FAQ-bgr.png) no-repeat center;
   position: absolute;
   height: 100%;
   width: 100%;
 }
-.registration .qa .qa-contact-us-holder {
+.qa .qa-contact-us-holder {
   margin: 0 auto;
   max-width: 780px;
   box-sizing: border-box;
   text-align: center;
 }
-.registration .qa .qa-contact-us-holder h3 {
+.qa .qa-contact-us-holder h3 {
   font-weight: lighter;
   font-size: 28px;
   color: #595959;
 }
-.registration .qa .qa-contact-us-holder p {
+.qa .qa-contact-us-holder p {
   font-size: 14px;
   border-radius: 12px;
   margin: 0px 20px;
   padding-bottom: 20px;
 }
-.registration .qa .qa-link-button {
+.qa .qa-link-button {
   display: block;
   background: #66e572;
   font-size: 12px;
@@ -875,24 +875,24 @@ header .transparent {
   margin: 0 auto;
   padding-top: 8px;
 }
-.registration .qa .qa-link-button:hover {
+.qa .qa-link-button:hover {
   background: #15c92d;
   color: #ffffff;
 }
-.registration .personal-info form {
+.personal-info form {
   width: 700px;
   margin: auto;
   position: relative;
   font-family: 'Raleway', sans-serif;
 }
-.registration .personal-info p {
+.personal-info p {
   margin: 0px;
   margin-top: 17px;
   margin-left: 20px;
   margin-bottom: 3px;
   color: #a09a9a;
 }
-.registration .personal-info .col1 {
+.personal-info .col1 {
   background-color: #ffffff;
   height: 277px;
   width: 300px;
@@ -902,7 +902,7 @@ header .transparent {
   display: inline-block;
   float: left;
 }
-.registration .personal-info .col1 input {
+.personal-info .col1 input {
   border: 1px solid #dedede;
   border-radius: 26px;
   height: 40px;
@@ -913,7 +913,7 @@ header .transparent {
   padding-left: 20px;
   font-family: 'Raleway', sans-serif;
 }
-.registration .personal-info .col2 input {
+.personal-info .col2 input {
   border: 1px solid #dedede;
   height: 33px;
   width: 320px;
@@ -925,7 +925,7 @@ header .transparent {
   outline: none;
   font-family: 'Raleway', sans-serif;
 }
-.registration .personal-info .col2 {
+.personal-info .col2 {
   background-color: transparent;
   display: inline-block;
   position: relative;
@@ -935,14 +935,14 @@ header .transparent {
   height: 277px;
   width: 350px;
 }
-.registration .personal-info .submit {
+.personal-info .submit {
   display: inline-block;
   height: 30px;
   width: 166px;
   float: right;
   margin-top: 35px;
 }
-.registration .personal-info input[type="submit"] {
+.personal-info input[type="submit"] {
   height: 45px;
   width: 158px;
   border: 0;
@@ -952,44 +952,44 @@ header .transparent {
   border-radius: 30px;
   outline: none;
 }
-.registration .personal-info input[type="submit"]:hover {
+.personal-info input[type="submit"]:hover {
   background-color: #15c92d;
 }
-.registration .personal-info .title hr:first-child {
+.personal-info .title hr:first-child {
   background-color: #69e279;
 }
-.registration .personal-info input[type="submit"]:hover::hover {
+.personal-info input[type="submit"]:hover::hover {
   background-color: #15c92d;
 }
-.registration .personal-info hr {
+.personal-info hr {
   display: inline-block;
   width: 70px;
   background-color: white;
   border: 0;
 }
-.registration .personal-info p {
+.personal-info p {
   font-size: 14px;
   border-radius: 12px;
   margin: 0px 20px;
 }
-.registration .personal-info ul {
+.personal-info ul {
   display: flex;
   flex: 1 1 50%;
   justify-content: space-around;
 }
-.registration .personal-info ul li {
+.personal-info ul li {
   display: inline-block;
   font-weight: 600;
   color: #fff;
   text-transform: uppercase;
   text-decoration: none;
 }
-.registration .register-2 {
+.register-2 {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
 }
-.registration .register-2 .form-child input {
+.register-2 .form-child input {
   border: 1px solid #dedede;
   height: 33px;
   width: 320px;
@@ -1001,7 +1001,7 @@ header .transparent {
   outline: none;
   font-family: 'Raleway', sans-serif;
 }
-.registration .register-2 .form-child select {
+.register-2 .form-child select {
   border: 1px solid #dedede;
   height: 33px;
   width: 320px;
@@ -1013,7 +1013,7 @@ header .transparent {
   outline: none;
   font-family: 'Raleway', sans-serif;
 }
-.registration .button {
+.button {
   display: block;
   flex: 1 1 100%;
   background: #66e572;
@@ -1026,11 +1026,11 @@ header .transparent {
   border-radius: 35px;
   color: #fff;
 }
-.registration .button:hover {
+.button:hover {
   background: #06D85F;
   color: #ffffff;
 }
-.registration .overlay {
+.overlay {
   position: fixed;
   top: 0;
   bottom: 0;
@@ -1041,11 +1041,11 @@ header .transparent {
   visibility: hidden;
   opacity: 0;
 }
-.registration .overlay:target {
+.overlay:target {
   visibility: visible;
   opacity: 1;
 }
-.registration .popup {
+.popup {
   margin: 70px auto;
   padding: 20px;
   background: #fff;
@@ -1054,11 +1054,11 @@ header .transparent {
   position: relative;
   transition: all 0.5s ease-in-out;
 }
-.registration .popup h2 {
+.popup h2 {
   margin-top: 0;
   font-family: Helvetica, Arial, sans-serif;
 }
-.registration .blue_button {
+.blue_button {
   display: inline-block;
   background: #66e572;
   font-size: 10px;
@@ -1070,11 +1070,11 @@ header .transparent {
   cursor: pointer;
   transition: all 0.3s ease-out;
 }
-.registration .blue_button:hover {
+.blue_button:hover {
   background: #15c92d;
   color: #ffffff;
 }
-.registration .popup .close {
+.popup .close {
   position: absolute;
   top: 20px;
   right: 30px;
@@ -1084,27 +1084,27 @@ header .transparent {
   text-decoration: none;
   color: #333;
 }
-.registration .popup .close:hover {
+.popup .close:hover {
   color: #06D85F;
 }
-.registration .popup .content {
+.popup .content {
   max-height: 70%;
   max-width: 70%;
   overflow: auto;
 }
 @media screen and (max-width: 700px) {
-  .registration .box {
+  .box {
     width: 70%;
   }
-  .registration .popup {
+  .popup {
     width: 70%;
   }
 }
-.registration .submit {
+.submit {
   flex: 1 1 100%;
   text-align: center;
 }
-.registration input[type="submit"] {
+input[type="submit"] {
   height: 45px;
   width: 158px;
   border: 0;
@@ -1114,13 +1114,13 @@ header .transparent {
   border-radius: 30px;
   outline: none;
 }
-.registration input[type="submit"]:hover {
+input[type="submit"]:hover {
   background-color: #15c92d;
 }
-.registration .title hr:first-child {
+.title hr:first-child {
   background-color: #69e279;
 }
-.registration input[type="submit"]:hover::hover {
+input[type="submit"]:hover::hover {
   background-color: #15c92d;
 }
 .chat-bot {
