@@ -25,7 +25,8 @@ Web-service, wich provides talor made mealplans with the delivery around the Tal
  
  
  
- =====Olga Popovits=====
+Olga Popovits
+ -
  Done so far
  - Footer added into all required pages
     - used there script with fonts, which are look like icons (awesome fonts script)
@@ -81,4 +82,15 @@ Registration page 2 (HTML):
        - Creating disabled option and have it first to be the "Label"
    - Learnt how to make a smart "search box" aka datalist
    - Learnt how to do in-line styling i.e. font weight to make it bold
+
+Tanya
+-
+
+- Registration page 1st part
+- Registration page 3th part html
+- Hover effect for all buttons
+- Remove shadow and text part from menu part on the main page
+- Added rates to the packages 
+- Added buttons DETAILS to the menu
+
 
