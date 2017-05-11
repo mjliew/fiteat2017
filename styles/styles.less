@@ -593,7 +593,82 @@ header {
             }
         }        
     }
-    .qa-bgr-holder{ 
+
+
+.qa{
+    background-color: #f1f1f1;
+    .content-holder{
+        position: relative;
+        margin-bottom: 50px;
+    }
+    .qa-accordion-holder{
+        margin: 0 auto;
+        max-width: 780px;
+        min-height: 600px;
+        box-sizing: border-box;
+        padding-top: 160px;
+
+        h3{
+            font-weight: lighter;
+            font-size: 16px;
+            color: #595959;
+            
+            &.active{
+                color: #15c92d;
+            }
+            &:hover{
+                color: #15c92d;
+            }
+            
+            &:focus{
+                color: #15c92d;
+            }
+        }
+        .ui-accordion-content{
+            height: auto!important;
+            background: #ffffff;
+            border-radius: 12px;
+            padding: 20px;
+        }
+
+        .ui-accordion-header{
+            background-color: transparent;
+            border: transparent;
+            outline: none;
+
+            .ui-icon-green
+            {
+                background-image: url(../images/qa-green-icons.png);
+            }
+
+            .ui-icon-white
+            {
+                background-image: url(../images/qa-white-icons.png);
+            }
+        }
+        
+        
+        p{      
+        font-size: 14px;
+        border-radius: 12px;
+        margin: 0px 20px;
+        }
+
+        ul{
+        display: flex;
+        flex: 1 1 50%;
+        justify-content: space-around;
+        li{
+            display: list-item;
+            font-weight: 600;
+            font-size: 12px;
+            text-transform: uppercase;
+            text-decoration: none;
+            width: 150px;
+            }
+        }        
+    }
+    .qa-bgr-holder{
         margin-bottom: -80px;
         position: relative;
         margin-bottom: -80px;
@@ -650,9 +725,6 @@ header {
     }
 }
 
-
-
-    
 
 
 .personal-info{
